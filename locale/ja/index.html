@@ -1,0 +1,69 @@
+---
+layout: home
+---
+
+<div>
+<main class="bd-masthead" id="content" role="main"><div class="container">
+    <div class="row align-items-center">
+      <div class="col-6 mx-auto col-md-6 order-md-2"><img class="img-fluid mb-3 mb-md-0" src="{{ site.baseurl }}/assets/img/bootstrap-stack.png" alt="" width="1024" height="860"></div>
+      <div class="col-md-6 order-md-1 text-center text-md-left pr-md-5">
+        <h1 class="mb-3 bd-text-purple-bright">Bootstrap</h1>
+        <p class="lead">世界でいちばん人気のフロントエンドコンポーネントライブラリを使って、レスポンシブでモバイルファーストなプロジェクトをWeb上に構築しましょう。</p>
+        <p class="lead mb-4">Bootstrap は HTML、CSS および JS で開発するためのオープンソースのツールキットです。 Sass の変数やミックスイン、レスポンシブなグリッドシステム、豊富な組み込みコンポーネント、jQuery を利用したパワフルなプラグインを使って、アイデアのプロトタイプを手早く作ったり、アプリケーション全体を構築したりできます。</p>
+        <div class="d-flex flex-column flex-md-row lead mb-3">
+<a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/" class="btn btn-lg btn-bd-primary mb-3 mb-md-0 mr-md-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');">はじめに</a>
+          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/" class="btn btn-lg btn-outline-secondary" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}');">ダウンロード</a>
+</div>
+        <p class="text-muted mb-0">現在のバージョン v{{ site.current_version }}</p>
+      </div>
+    </div>
+    {% include ads.html %}
+  </div>
+</main><div class="masthead-followup row m-0 border border-white">
+  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+    <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+    {% include icons/import.svg width="32" height="32" class="text-primary mb-2" %}
+    <h3>インストール</h3>
+    <p>Bootstrap のソースである Sass や JavaScript ファイルを、npm や Composer、Meteor から取得してください。 パッケージ管理されたインストールにはドキュメントが含まれていませんが、ビルドシステムと readme が含まれています。</p>
+
+{% highlight sh %}
+npm install bootstrap
+{% endhighlight %}
+
+{% highlight sh %}
+gem install bootstrap -v {{ site.current_ruby_version }}
+{% endhighlight %}
+
+    <hr class="half-rule">
+<a class="btn btn-outline-primary" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download">インストール手順を読む</a>
+  </div>
+
+  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+    <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+    {% include icons/download.svg width="32" height="32" class="text-primary mb-2" %}
+    <h3>BootstrapCDN</h3>
+    <p>Bootstrap のコンパイル済み CSS や JS が必要なときにだけ、<a href="https://www.bootstrapcdn.com/">BootstrapCDN</a>が使えます。</p>
+
+<h5>CSS のみ</h5>
+{% highlight html %}
+<link rel="stylesheet" href="%7B%7B%20site.cdn.css%20%7D%7D" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
+{% endhighlight %}
+
+<h5>JS、Popper.js および jQuery</h5>
+{% highlight html %}
+<script src="%7B%7B%20site.cdn.jquery%20%7D%7D" integrity="{{ site.cdn.jquery_hash }}" crossorigin="anonymous"></script><script src="%7B%7B%20site.cdn.popper%20%7D%7D" integrity="{{ site.cdn.popper_hash }}" crossorigin="anonymous"></script><script src="%7B%7B%20site.cdn.js%20%7D%7D" integrity="{{ site.cdn.js_hash }}" crossorigin="anonymous"></script>
+{% endhighlight %}
+    <hr class="half-rule">
+<a class="btn btn-outline-primary" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/layout/overview/">ドキュメントを調べる</a>
+  </div>
+
+  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+    <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+    {% include icons/lightning.svg width="32" height="32" class="text-primary mb-2" %}
+    <h3>公式テーマ</h3>
+    <p>公式のプレミアムテーマで、Bootstrap 4 を次のレベルに。新しいコンポーネントやプラグイン、ドキュメント、ビルドツールによる Bootstap のツールキットです。</p>
+    <img class="img-fluid mt-3 mx-auto" src="{{ site.baseurl }}/assets/img/bootstrap-themes.png" alt="Bootstrap Themes" width="1024" height="388"><hr class="half-rule">
+<a href="{{ site.themes }}" class="btn btn-outline-primary">テーマを見る</a>
+  </div>
+</div>
+</div>
