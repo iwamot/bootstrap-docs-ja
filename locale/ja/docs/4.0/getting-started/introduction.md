@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Introduction
+title: はじめに
 description: Get started with Bootstrap, the world's most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.
 group: getting-started
 redirect_from:
@@ -128,7 +128,7 @@ Learn more about [box model and sizing at CSS Tricks](https://css-tricks.com/box
 
 For improved cross-browser rendering, we use [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version }}/content/reboot/) to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.
 
-## Community
+## コミュニティ
 
 Stay up to date on the development of Bootstrap and reach out to the community with these helpful resources.
 

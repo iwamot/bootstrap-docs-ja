@@ -8,3 +8,9 @@ source_file = index.html
 source_lang = en
 type = HTML
 
+[bootstrap-docs-ja.docs_4-0_getting-started_introduction-md]
+file_filter = locale/<lang>/docs/4.0/getting-started/introduction.md
+source_file = docs/4.0/getting-started/introduction.md
+source_lang = en
+type = GITHUBMARKDOWN
+
