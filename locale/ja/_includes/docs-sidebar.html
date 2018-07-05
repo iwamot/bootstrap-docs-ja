@@ -1,5 +1,5 @@
 <form class="bd-search d-flex align-items-center">
-  <input type="search" class="form-control" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off">
+  <input type="search" class="form-control" id="search-input" placeholder="検索..." aria-label="Search for..." autocomplete="off">
   <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
     {%- include icons/menu.svg width="30" height="30" -%}
   </button>
@@ -9,8 +9,8 @@
   {%- assign page_slug = page.url | split: '/' | last -%}
   {%- for group in site.data.nav -%}
   {%- assign link = group.pages | first -%}
-  {%- assign link_slug = link.title | slugify -%}
-  {%- assign group_slug = group.title | slugify -%}
+  {%- assign link_slug = link.id | slugify -%}
+  {%- assign group_slug = group.id | slugify -%}
   {%- assign active = nil -%}
 
   {%- if page.group == group_slug -%}
@@ -24,7 +24,7 @@
 
       <ul class="nav bd-sidenav">
         {%- for doc in group.pages -%}
-          {%- assign doc_slug = doc.title | slugify -%}
+          {%- assign doc_slug = doc.id | slugify -%}
           {%- assign active = nil -%}
 
           {%- if page.group == group_slug and page_slug == doc_slug -%}

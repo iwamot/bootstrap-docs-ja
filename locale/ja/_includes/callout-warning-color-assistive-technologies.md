@@ -1,5 +1,5 @@
 {% callout warning %}
-##### Conveying meaning to assistive technologies
+##### 支援技術に意図を伝える
 
-Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
+色を用いて意図を伝えようとしても、視覚的な表示に終わるだけで、スクリーンリーダーなど支援技術のユーザには伝わりません。色で示された情報が、内容自体（可視テキストなど）から明らかであるか、`.sr-only` クラスの指定された隠しテキストなどの代替手段を通じて含まれていることを保証してください。
 {% endcallout %}
