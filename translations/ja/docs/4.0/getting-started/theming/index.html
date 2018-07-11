@@ -43,7 +43,7 @@
 </script>
 </head>
 <body>
-<a id="skippy" class="sr-only sr-only-focusable" href="#content"><div class="container"><span class="skiplink-text">メインコンテンツに移動する</span></div>
+<a id="skippy" class="sr-only sr-only-focusable" href="#content"><div class="container"><span class="skiplink-text">メインコンテンツにスキップする</span></div>
     </a>
 
     <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar"><a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Bootstrap"><svg class="d-block" width="36" height="36" viewbox="0 0 612 612" xmlns="http://www.w3.org/2000/svg" focusable="false"><title>Bootstrap</title>
@@ -356,13 +356,13 @@
 <a href="#color">Color</a><ul>
 <li class="toc-entry toc-h3"><a href="#all-colors">All colors</a></li>
 <li class="toc-entry toc-h3"><a href="#theme-colors">Theme colors</a></li>
-<li class="toc-entry toc-h3"><a href="#grays">Grays</a></li>
+<li class="toc-entry toc-h3"><a href="#grays">グレー</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2">
 <a href="#components">Components</a><ul>
 <li class="toc-entry toc-h3"><a href="#modifiers">Modifiers</a></li>
-<li class="toc-entry toc-h3"><a href="#responsive">Responsive</a></li>
+<li class="toc-entry toc-h3"><a href="#responsive">レスポンシブ</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2">
@@ -725,7 +725,7 @@
   
 </div>
 
-<h3 id="grays">Grays</h3>
+<h3 id="grays">グレー</h3>
 
 <p>An expansive set of gray variables and a Sass map in <code class="highlighter-rouge">scss/_variables.scss</code> for consistent shades of gray across your project.</p>
 
@@ -791,7 +791,7 @@
 <span class="c1">// Generate `.bg-*` color utilities</span>
 <span class="k">@each</span> <span class="nv">$color</span><span class="o">,</span> <span class="nv">$value</span> <span class="n">in</span> <span class="nv">$theme-colors</span> <span class="p">{</span>
   <span class="k">@include</span> <span class="nd">bg-variant</span><span class="p">(</span><span class="s1">'.bg-</span><span class="si">#{</span><span class="nv">$color</span><span class="si">}</span><span class="s1">'</span><span class="o">,</span> <span class="nv">$value</span><span class="p">);</span>
-<span class="p">}</span></code></pre></figure><h3 id="responsive">Responsive</h3>
+<span class="p">}</span></code></pre></figure><h3 id="responsive">レスポンシブ</h3>
 
 <p>These Sass loops aren’t limited to color maps, either. You can also generate responsive variations of your components or utilities. Take for example our responsive text alignment utilities where we mix an <code class="highlighter-rouge">@each</code> loop for the <code class="highlighter-rouge">$grid-breakpoints</code> Sass map with a media query include.</p>
 
