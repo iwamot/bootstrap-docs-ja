@@ -6,7 +6,7 @@
 <meta name="description" content="Components and options for laying out your Bootstrap project, including wrapping containers, a powerful grid system, a flexible media object, and responsive utility classes.">
 <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 <meta name="generator" content="Jekyll v3.7.0">
-<title>Overview · Bootstrap</title>
+<title>概要 · Bootstrap</title>
 <!-- Bootstrap core CSS --><link href="/dist/css/bootstrap.css" rel="stylesheet">
 <!-- Documentation extras --><link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet">
 <link href="/assets/css/docs.min.css" rel="stylesheet">
@@ -333,16 +333,16 @@
         
           <div class="d-none d-xl-block col-xl-2 bd-toc">
             <ul class="section-nav">
-<li class="toc-entry toc-h2"><a href="#containers">Containers</a></li>
+<li class="toc-entry toc-h2"><a href="#containers">コンテナ</a></li>
 <li class="toc-entry toc-h2"><a href="#responsive-breakpoints">Responsive breakpoints</a></li>
-<li class="toc-entry toc-h2"><a href="#z-index">Z-index</a></li>
+<li class="toc-entry toc-h2"><a href="#z-index">z-index</a></li>
 </ul>
 </div>
         
 
-        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main"><h1 class="bd-title" id="content">Overview</h1>
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main"><h1 class="bd-title" id="content">概要</h1>
           <p class="bd-lead">Components and options for laying out your Bootstrap project, including wrapping containers, a powerful grid system, a flexible media object, and responsive utility classes.</p>
-          <script async src="https://cdn.carbonads.com/carbon.js?zoneid=1673&amp;serve=C6AILKT&amp;placement=getbootstrapcom" id="_carbonads_js"></script><h2 id="containers">Containers</h2>
+          <script async src="https://cdn.carbonads.com/carbon.js?zoneid=1673&amp;serve=C6AILKT&amp;placement=getbootstrapcom" id="_carbonads_js"></script><h2 id="containers">コンテナ</h2>
 
 <p>Containers are the most basic layout element in Bootstrap and are <strong>required when using our default grid system</strong>. Choose from a responsive, fixed-width container (meaning its <code class="highlighter-rouge">max-width</code> changes at each breakpoint) or fluid-width (meaning it’s <code class="highlighter-rouge">100%</code> wide all the time).</p>
 
@@ -453,7 +453,7 @@
 <span class="c1">// Apply styles starting from medium devices and up to extra large devices</span>
 <span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="o">:</span> <span class="m">768px</span><span class="p">)</span> <span class="nf">and</span> <span class="p">(</span><span class="n">max-width</span><span class="o">:</span> <span class="m">1199</span><span class="mi">.98px</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span></code></pre></figure><p>The Sass mixin for targeting the same screen size range would be:</p>
 
-<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="k">@include</span> <span class="nd">media-breakpoint-between</span><span class="p">(</span><span class="n">md</span><span class="o">,</span> <span class="n">xl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span></code></pre></figure><h2 id="z-index">Z-index</h2>
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="k">@include</span> <span class="nd">media-breakpoint-between</span><span class="p">(</span><span class="n">md</span><span class="o">,</span> <span class="n">xl</span><span class="p">)</span> <span class="p">{</span> <span class="nc">...</span> <span class="p">}</span></code></pre></figure><h2 id="z-index">z-index</h2>
 
 <p>Several Bootstrap components utilize <code class="highlighter-rouge">z-index</code>, the CSS property that helps control layout by providing a third axis to arrange content. We utilize a default z-index scale in Bootstrap that’s been designed to properly layer navigation, tooltips and popovers, modals, and more.</p>
 
