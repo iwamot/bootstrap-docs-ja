@@ -341,8 +341,8 @@
 <li class="toc-entry toc-h2">
 <a href="#beta-3-changes">Beta 3 changes</a><ul>
 <li class="toc-entry toc-h3"><a href="#miscellaneous">Miscellaneous</a></li>
-<li class="toc-entry toc-h3"><a href="#forms">Forms</a></li>
-<li class="toc-entry toc-h3"><a href="#input-groups">Input groups</a></li>
+<li class="toc-entry toc-h3"><a href="#forms">フォーム</a></li>
+<li class="toc-entry toc-h3"><a href="#input-groups">入力グループ</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2">
@@ -356,33 +356,33 @@
 <li class="toc-entry toc-h3"><a href="#browser-support">Browser support</a></li>
 <li class="toc-entry toc-h3"><a href="#global-changes">Global changes</a></li>
 <li class="toc-entry toc-h3"><a href="#grid-system">Grid system</a></li>
-<li class="toc-entry toc-h3"><a href="#components">Components</a></li>
+<li class="toc-entry toc-h3"><a href="#components">コンポーネント</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2">
 <a href="#by-component">By component</a><ul>
 <li class="toc-entry toc-h3"><a href="#reboot">Reboot</a></li>
-<li class="toc-entry toc-h3"><a href="#typography">Typography</a></li>
-<li class="toc-entry toc-h3"><a href="#images">Images</a></li>
-<li class="toc-entry toc-h3"><a href="#tables">Tables</a></li>
-<li class="toc-entry toc-h3"><a href="#forms-1">Forms</a></li>
-<li class="toc-entry toc-h3"><a href="#buttons">Buttons</a></li>
-<li class="toc-entry toc-h3"><a href="#button-group">Button group</a></li>
-<li class="toc-entry toc-h3"><a href="#dropdowns">Dropdowns</a></li>
-<li class="toc-entry toc-h3"><a href="#grid-system-1">Grid system</a></li>
-<li class="toc-entry toc-h3"><a href="#list-groups">List groups</a></li>
-<li class="toc-entry toc-h3"><a href="#modal">Modal</a></li>
-<li class="toc-entry toc-h3"><a href="#navs">Navs</a></li>
-<li class="toc-entry toc-h3"><a href="#navbar">Navbar</a></li>
-<li class="toc-entry toc-h3"><a href="#pagination">Pagination</a></li>
-<li class="toc-entry toc-h3"><a href="#breadcrumbs">Breadcrumbs</a></li>
+<li class="toc-entry toc-h3"><a href="#typography">タイポグラフィ</a></li>
+<li class="toc-entry toc-h3"><a href="#images">画像</a></li>
+<li class="toc-entry toc-h3"><a href="#tables">テーブル</a></li>
+<li class="toc-entry toc-h3"><a href="#forms-1">フォーム</a></li>
+<li class="toc-entry toc-h3"><a href="#buttons">ボタン</a></li>
+<li class="toc-entry toc-h3"><a href="#button-group">ボタングループ</a></li>
+<li class="toc-entry toc-h3"><a href="#dropdowns">ドロップダウン</a></li>
+<li class="toc-entry toc-h3"><a href="#grid-system-1">グリッドシステム</a></li>
+<li class="toc-entry toc-h3"><a href="#list-groups">リストグループ</a></li>
+<li class="toc-entry toc-h3"><a href="#modal">モーダル</a></li>
+<li class="toc-entry toc-h3"><a href="#navs">ナビゲーション</a></li>
+<li class="toc-entry toc-h3"><a href="#navbar">ナビゲーションバー</a></li>
+<li class="toc-entry toc-h3"><a href="#pagination">ページネーション</a></li>
+<li class="toc-entry toc-h3"><a href="#breadcrumbs">パンくずリスト</a></li>
 <li class="toc-entry toc-h3"><a href="#labels-and-badges">Labels and badges</a></li>
 <li class="toc-entry toc-h3"><a href="#panels-thumbnails-and-wells">Panels, thumbnails, and wells</a></li>
 <li class="toc-entry toc-h3"><a href="#panels">Panels</a></li>
-<li class="toc-entry toc-h3"><a href="#progress">Progress</a></li>
-<li class="toc-entry toc-h3"><a href="#carousel">Carousel</a></li>
-<li class="toc-entry toc-h3"><a href="#tables-1">Tables</a></li>
-<li class="toc-entry toc-h3"><a href="#utilities">Utilities</a></li>
+<li class="toc-entry toc-h3"><a href="#progress">プログレスバー</a></li>
+<li class="toc-entry toc-h3"><a href="#carousel">カルーセル</a></li>
+<li class="toc-entry toc-h3"><a href="#tables-1">テーブル</a></li>
+<li class="toc-entry toc-h3"><a href="#utilities">ユーティリティ</a></li>
 <li class="toc-entry toc-h3"><a href="#vendor-prefix-mixins">Vendor prefix mixins</a></li>
 </ul>
 </li>
@@ -423,7 +423,7 @@
 <li>Removed the unused <code class="highlighter-rouge">$thumbnail-transition</code> variable. We weren’t transitioning anything, so it was just extra code.</li>
   <li>The npm package no longer includes any files other than our source and dist files; if you relied on them and were running our scripts via the <code class="highlighter-rouge">node_modules</code> folder, you should adapt your workflow.</li>
 </ul>
-<h3 id="forms">Forms</h3>
+<h3 id="forms">フォーム</h3>
 
 <ul>
 <li>
@@ -443,7 +443,7 @@
     <p>Custom file inputs received a change to their <code class="highlighter-rouge">$custom-file-text</code> Sass variable. It’s no longer a nested Sass map and now only powers one string—the <code class="highlighter-rouge">Browse</code> button as that is now the only pseudo-element generated from our Sass. The <code class="highlighter-rouge">Choose file</code> text now comes from the <code class="highlighter-rouge">.custom-file-label</code>.</p>
   </li>
 </ul>
-<h3 id="input-groups">Input groups</h3>
+<h3 id="input-groups">入力グループ</h3>
 
 <ul>
 <li>
@@ -502,7 +502,7 @@
   <li>Dropped the online Customizer in favor of more extensive setup documentation and customized builds.</li>
   <li>Added dozens of new <a href="/docs/4.0/utilities/">utility classes</a> for common CSS property-value pairs and margin/padding spacing shortcuts.</li>
 </ul>
-<h3 id="grid-system">Grid system</h3>
+<h3 id="grid-system">グリッドシステム</h3>
 
 <ul>
 <li>
@@ -528,7 +528,7 @@
     </ul>
 </li>
 </ul>
-<h3 id="components">Components</h3>
+<h3 id="components">コンポーネント</h3>
 
 <ul>
 <li>
@@ -561,7 +561,7 @@
 
 <p>New to Bootstrap 4 is the <a href="/docs/4.0/content/reboot/">Reboot</a>, a new stylesheet that builds on Normalize with our own somewhat opinionated reset styles. Selectors appearing in this file only use elements—there are no classes here. This isolates our reset styles from our component styles for a more modular approach. Some of the most important resets this includes are the <code class="highlighter-rouge">box-sizing: border-box</code> change, moving from <code class="highlighter-rouge">em</code> to <code class="highlighter-rouge">rem</code> units on many elements, link styles, and many form element resets.</p>
 
-<h3 id="typography">Typography</h3>
+<h3 id="typography">タイポグラフィ</h3>
 
 <ul>
 <li>Moved all <code class="highlighter-rouge">.text-</code> utilities to the <code class="highlighter-rouge">_utilities.scss</code> file.</li>
@@ -572,7 +572,7 @@
   <li>
 <code class="highlighter-rouge">.list-inline</code> now requires that its children list items have the new <code class="highlighter-rouge">.list-inline-item</code> class applied to them.</li>
 </ul>
-<h3 id="images">Images</h3>
+<h3 id="images">画像</h3>
 
 <ul>
 <li>Renamed <code class="highlighter-rouge">.img-responsive</code> to <code class="highlighter-rouge">.img-fluid</code>.</li>
@@ -581,7 +581,7 @@
   <li>Renamed <code class="highlighter-rouge">.img-circle</code> to <code class="highlighter-rouge">.rounded-circle</code>
 </li>
 </ul>
-<h3 id="tables">Tables</h3>
+<h3 id="tables">テーブル</h3>
 
 <ul>
 <li>Nearly all instances of the <code class="highlighter-rouge">&gt;</code> selector have been removed, meaning nested tables will now automatically inherit styles from their parents. This greatly simplifies our selectors and potential customizations.</li>
@@ -591,7 +591,7 @@
   <li>Added table header modifiers: <code class="highlighter-rouge">.thead-default</code> and <code class="highlighter-rouge">.thead-inverse</code>.</li>
   <li>Renamed contextual classes to have a <code class="highlighter-rouge">.table-</code>-prefix. Hence <code class="highlighter-rouge">.active</code>, <code class="highlighter-rouge">.success</code>, <code class="highlighter-rouge">.warning</code>, <code class="highlighter-rouge">.danger</code> and <code class="highlighter-rouge">.info</code> to <code class="highlighter-rouge">.table-active</code>, <code class="highlighter-rouge">.table-success</code>, <code class="highlighter-rouge">.table-warning</code>, <code class="highlighter-rouge">.table-danger</code> and <code class="highlighter-rouge">.table-info</code>.</li>
 </ul>
-<h3 id="forms-1">Forms</h3>
+<h3 id="forms-1">フォーム</h3>
 
 <ul>
 <li>Moved element resets to the <code class="highlighter-rouge">_reboot.scss</code> file.</li>
@@ -613,7 +613,7 @@
   <li>Replaced <code class="highlighter-rouge">.has-error</code>, <code class="highlighter-rouge">.has-warning</code>, and <code class="highlighter-rouge">.has-success</code> classes with HTML5 form validation via CSS’s <code class="highlighter-rouge">:invalid</code> and <code class="highlighter-rouge">:valid</code> pseudo-classes.</li>
   <li>Renamed <code class="highlighter-rouge">.form-control-static</code> to <code class="highlighter-rouge">.form-control-plaintext</code>.</li>
 </ul>
-<h3 id="buttons">Buttons</h3>
+<h3 id="buttons">ボタン</h3>
 
 <ul>
 <li>Renamed <code class="highlighter-rouge">.btn-default</code> to <code class="highlighter-rouge">.btn-secondary</code>.</li>
@@ -624,7 +624,7 @@
 </li>
   <li>Change buttons’ <code class="highlighter-rouge">[disabled]</code> to <code class="highlighter-rouge">:disabled</code> as IE9+ supports <code class="highlighter-rouge">:disabled</code>. However <code class="highlighter-rouge">fieldset[disabled]</code> is still necessary because <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset#Browser_compatibility">native disabled fieldsets are still buggy in IE11</a>.</li>
 </ul>
-<h3 id="button-group">Button group</h3>
+<h3 id="button-group">ボタングループ</h3>
 
 <ul>
 <li>Rewrote component with flexbox.</li>
@@ -633,7 +633,7 @@
   <li>Removed explicit spacing between button groups in button toolbars; use margin utilities now.</li>
   <li>Improved documentation for use with other components.</li>
 </ul>
-<h3 id="dropdowns">Dropdowns</h3>
+<h3 id="dropdowns">ドロップダウン</h3>
 
 <ul>
 <li>Switched from parent selectors to singular classes for all components, modifiers, etc.</li>
@@ -644,7 +644,7 @@
   <li>Dropdown items now require <code class="highlighter-rouge">.dropdown-item</code>.</li>
   <li>Dropdown toggles no longer require an explicit <code class="highlighter-rouge">&lt;span class="caret"&gt;&lt;/span&gt;</code>; this is now provided automatically via CSS’s <code class="highlighter-rouge">::after</code> on <code class="highlighter-rouge">.dropdown-toggle</code>.</li>
 </ul>
-<h3 id="grid-system-1">Grid system</h3>
+<h3 id="grid-system-1">グリッドシステム</h3>
 
 <ul>
 <li>Added a new <code class="highlighter-rouge">576px</code> grid breakpoint as <code class="highlighter-rouge">sm</code>, meaning there are now five total tiers (<code class="highlighter-rouge">xs</code>, <code class="highlighter-rouge">sm</code>, <code class="highlighter-rouge">md</code>, <code class="highlighter-rouge">lg</code>, and <code class="highlighter-rouge">xl</code>).</li>
@@ -652,28 +652,28 @@
   <li>Dropped push and pull modifier classes for the new flexbox-powered <code class="highlighter-rouge">order</code> classes. For example, instead of <code class="highlighter-rouge">.col-8.push-4</code> and <code class="highlighter-rouge">.col-4.pull-8</code>, you’d use <code class="highlighter-rouge">.col-8.order-2</code> and <code class="highlighter-rouge">.col-4.order-1</code>.</li>
   <li>Added flexbox utility classes for grid system and components.</li>
 </ul>
-<h3 id="list-groups">List groups</h3>
+<h3 id="list-groups">リストグループ</h3>
 
 <ul>
 <li>Rewrote component with flexbox.</li>
   <li>Replaced <code class="highlighter-rouge">a.list-group-item</code> with an explicit class, <code class="highlighter-rouge">.list-group-item-action</code>, for styling link and button versions of list group items.</li>
   <li>Added <code class="highlighter-rouge">.list-group-flush</code> class for use with cards.</li>
 </ul>
-<h3 id="modal">Modal</h3>
+<h3 id="modal">モーダル</h3>
 
 <ul>
 <li>Rewrote component with flexbox.</li>
   <li>Given move to flexbox, alignment of dismiss icons in the header is likely broken as we’re no longer using floats. Floated content comes first, but with flexbox that’s no longer the case. Update your dismiss icons to come after modal titles to fix.</li>
   <li>The <code class="highlighter-rouge">remote</code> option (which could be used to automatically load and inject external content into a modal) and the corresponding <code class="highlighter-rouge">loaded.bs.modal</code> event were removed. We recommend instead using client-side templating or a data binding framework, or calling <a href="https://api.jquery.com/load/">jQuery.load</a> yourself.</li>
 </ul>
-<h3 id="navs">Navs</h3>
+<h3 id="navs">ナビゲーション</h3>
 
 <ul>
 <li>Rewrote component with flexbox.</li>
   <li>Dropped nearly all <code class="highlighter-rouge">&gt;</code> selectors for simpler styling via un-nested classes.</li>
   <li>Instead of HTML-specific selectors like <code class="highlighter-rouge">.nav &gt; li &gt; a</code>, we use separate classes for <code class="highlighter-rouge">.nav</code>s, <code class="highlighter-rouge">.nav-item</code>s, and <code class="highlighter-rouge">.nav-link</code>s. This makes your HTML more flexible while bringing along increased extensibility.</li>
 </ul>
-<h3 id="navbar">Navbar</h3>
+<h3 id="navbar">ナビゲーションバー</h3>
 
 <p>The navbar has been entirely rewritten in flexbox with improved support for alignment, responsiveness, and customization.</p>
 
@@ -689,14 +689,14 @@
   <li>Navbars no longer include <code class="highlighter-rouge">margin-bottom</code> or <code class="highlighter-rouge">border-radius</code> by default. Use utilities as necessary.</li>
   <li>All examples featuring navbars have been updated to include new markup.</li>
 </ul>
-<h3 id="pagination">Pagination</h3>
+<h3 id="pagination">ページネーション</h3>
 
 <ul>
 <li>Rewrote component with flexbox.</li>
   <li>Explicit classes (<code class="highlighter-rouge">.page-item</code>, <code class="highlighter-rouge">.page-link</code>) are now required on the descendants of <code class="highlighter-rouge">.pagination</code>s</li>
   <li>Dropped the <code class="highlighter-rouge">.pager</code> component entirely as it was little more than customized outline buttons.</li>
 </ul>
-<h3 id="breadcrumbs">Breadcrumbs</h3>
+<h3 id="breadcrumbs">パンくずリスト</h3>
 
 <ul>
 <li>An explicit class, <code class="highlighter-rouge">.breadcrumb-item</code>, is now required on the descendants of <code class="highlighter-rouge">.breadcrumb</code>s</li>
@@ -737,13 +737,13 @@
   <li>
 <code class="highlighter-rouge">.panel-primary</code>, <code class="highlighter-rouge">.panel-success</code>, <code class="highlighter-rouge">.panel-info</code>, <code class="highlighter-rouge">.panel-warning</code>, and <code class="highlighter-rouge">.panel-danger</code> have been dropped for <code class="highlighter-rouge">.bg-</code>, <code class="highlighter-rouge">.text-</code>, and <code class="highlighter-rouge">.border</code> utilities generated from our <code class="highlighter-rouge">$theme-colors</code> Sass map.</li>
 </ul>
-<h3 id="progress">Progress</h3>
+<h3 id="progress">プログレスバー</h3>
 
 <ul>
 <li>Replaced contextual <code class="highlighter-rouge">.progress-bar-*</code> classes with <code class="highlighter-rouge">.bg-*</code> utilities. For example, <code class="highlighter-rouge">class="progress-bar progress-bar-danger"</code> becomes <code class="highlighter-rouge">class="progress-bar bg-danger"</code>.</li>
   <li>Replaced <code class="highlighter-rouge">.active</code> for animated progress bars with <code class="highlighter-rouge">.progress-bar-animated</code>.</li>
 </ul>
-<h3 id="carousel">Carousel</h3>
+<h3 id="carousel">カルーセル</h3>
 
 <ul>
 <li>Overhauled the entire component to simplify design and styling. We have fewer styles for you to override, new indicators, and new icons.</li>
@@ -758,13 +758,13 @@
   <li>Removed image overrides for images in carousel items, deferring to utilities.</li>
   <li>Tweaked the Carousel example to include the new markup and styles.</li>
 </ul>
-<h3 id="tables-1">Tables</h3>
+<h3 id="tables-1">テーブル</h3>
 
 <ul>
 <li>Removed support for styled nested tables. All table styles are now inherited in v4 for simpler selectors.</li>
   <li>Added inverse table variant.</li>
 </ul>
-<h3 id="utilities">Utilities</h3>
+<h3 id="utilities">ユーティリティ</h3>
 
 <ul>
 <li>
