@@ -360,7 +360,7 @@
 </ul>
 </li>
 <li class="toc-entry toc-h2">
-<a href="#components">Components</a><ul>
+<a href="#components">コンポーネント</a><ul>
 <li class="toc-entry toc-h3"><a href="#modifiers">Modifiers</a></li>
 <li class="toc-entry toc-h3"><a href="#responsive">レスポンシブ</a></li>
 </ul>
@@ -368,7 +368,7 @@
 <li class="toc-entry toc-h2">
 <a href="#css-variables">CSS variables</a><ul>
 <li class="toc-entry toc-h3"><a href="#available-variables">Available variables</a></li>
-<li class="toc-entry toc-h3"><a href="#examples">Examples</a></li>
+<li class="toc-entry toc-h3"><a href="#examples">サンプル</a></li>
 </ul>
 </li>
 </ul>
@@ -771,7 +771,7 @@
   <span class="s2">"gray-dark"</span><span class="o">:</span> <span class="nv">$gray-800</span>
 <span class="p">)</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span></code></pre></figure><p>Add, remove, or modify values within the map to update how they’re used in many other components. Unfortunately at this time, not <em>every</em> component utilizes this Sass map. Future updates will strive to improve upon this. Until then, plan on making use of the <code class="highlighter-rouge">${color}</code> variables and this Sass map.</p>
 
-<h2 id="components">Components</h2>
+<h2 id="components">コンポーネント</h2>
 
 <p>Many of Bootstrap’s components and utilities are built with <code class="highlighter-rouge">@each</code> loops that iterate over a Sass map. This is especially helpful for generating variants of a component by our <code class="highlighter-rouge">$theme-colors</code> and creating responsive variants for each breakpoint. As you customize these Sass maps and recompile, you’ll automatically see your changes reflected in these loops.</p>
 
@@ -842,7 +842,7 @@
   <span class="py">--breakpoint-xl</span><span class="p">:</span> <span class="m">1200px</span><span class="p">;</span>
   <span class="py">--font-family-sans-serif</span><span class="p">:</span> <span class="n">-apple-system</span><span class="p">,</span> <span class="n">BlinkMacSystemFont</span><span class="p">,</span> <span class="s1">"Segoe UI"</span><span class="p">,</span> <span class="n">Roboto</span><span class="p">,</span> <span class="s1">"Helvetica Neue"</span><span class="p">,</span> <span class="n">Arial</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">,</span> <span class="s1">"Apple Color Emoji"</span><span class="p">,</span> <span class="s1">"Segoe UI Emoji"</span><span class="p">,</span> <span class="s1">"Segoe UI Symbol"</span><span class="p">;</span>
   <span class="py">--font-family-monospace</span><span class="p">:</span> <span class="n">SFMono-Regular</span><span class="p">,</span> <span class="n">Menlo</span><span class="p">,</span> <span class="n">Monaco</span><span class="p">,</span> <span class="n">Consolas</span><span class="p">,</span> <span class="s1">"Liberation Mono"</span><span class="p">,</span> <span class="s1">"Courier New"</span><span class="p">,</span> <span class="nb">monospace</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure><h3 id="examples">Examples</h3>
+<span class="p">}</span></code></pre></figure><h3 id="examples">サンプル</h3>
 
 <p>CSS variables offer similar flexibility to Sass’s variables, but without the need for compilation before being served to the browser. For example, here we’re resetting our page’s font and link styles with CSS variables.</p>
 
