@@ -333,11 +333,11 @@
         
           <div class="d-none d-xl-block col-xl-2 bd-toc">
             <ul class="section-nav">
-<li class="toc-entry toc-h2"><a href="#introduction">Introduction</a></li>
+<li class="toc-entry toc-h2"><a href="#introduction">はじめに</a></li>
 <li class="toc-entry toc-h2">
 <a href="#sass">Sass</a><ul>
-<li class="toc-entry toc-h3"><a href="#file-structure">File structure</a></li>
-<li class="toc-entry toc-h3"><a href="#importing">Importing</a></li>
+<li class="toc-entry toc-h3"><a href="#file-structure">ファイル構成</a></li>
+<li class="toc-entry toc-h3"><a href="#importing">インポート</a></li>
 <li class="toc-entry toc-h3"><a href="#variable-defaults">Variable defaults</a></li>
 <li class="toc-entry toc-h3">
 <a href="#maps-and-loops">Maps and loops</a><ul>
@@ -354,7 +354,7 @@
 <li class="toc-entry toc-h2"><a href="#sass-options">Sass options</a></li>
 <li class="toc-entry toc-h2">
 <a href="#color">Color</a><ul>
-<li class="toc-entry toc-h3"><a href="#all-colors">All colors</a></li>
+<li class="toc-entry toc-h3"><a href="#all-colors">すべての色</a></li>
 <li class="toc-entry toc-h3"><a href="#theme-colors">Theme colors</a></li>
 <li class="toc-entry toc-h3"><a href="#grays">グレー</a></li>
 </ul>
@@ -376,8 +376,8 @@
         
 
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main"><h1 class="bd-title" id="content">Theming Bootstrap</h1>
-          <p class="bd-lead">Customize Bootstrap 4 with our new built-in Sass variables for global style preferences for easy theming and component changes.</p>
-          <script async src="https://cdn.carbonads.com/carbon.js?zoneid=1673&amp;serve=C6AILKT&amp;placement=getbootstrapcom" id="_carbonads_js"></script><h2 id="introduction">Introduction</h2>
+          <p class="bd-lead">テーマやコンポーネントが簡単に変えられる、グローバルスタイル設定用の組み込みSass変数で、Bootstrap 4 をカスタマイズしましょう。</p>
+          <script async src="https://cdn.carbonads.com/carbon.js?zoneid=1673&amp;serve=C6AILKT&amp;placement=getbootstrapcom" id="_carbonads_js"></script><h2 id="introduction">はじめに</h2>
 
 <p>In Bootstrap 3, theming was largely driven by variable overrides in LESS, custom CSS, and a separate theme stylesheet that we included in our <code class="highlighter-rouge">dist</code> files. With some effort, one could completely redesign the look of Bootstrap 3 without touching the core files. Bootstrap 4 provides a familiar, but slightly different approach.</p>
 
@@ -387,7 +387,7 @@
 
 <p>Utilize our source Sass files to take advantage of variables, maps, mixins, and more.</p>
 
-<h3 id="file-structure">File structure</h3>
+<h3 id="file-structure">ファイル構成</h3>
 
 <p>Whenever possible, avoid modifying Bootstrap’s core files. For Sass, that means creating your own stylesheet that imports Bootstrap so you can modify and extend it. Assuming you’re using a package manager like npm, you’ll have a file structure that looks like this:</p>
 
@@ -404,7 +404,7 @@
 │   └── custom.scss
 └── bootstrap/
     ├── js
-    └── scss</code></pre></figure><h3 id="importing">Importing</h3>
+    └── scss</code></pre></figure><h3 id="importing">インポート</h3>
 
 <p>In your <code class="highlighter-rouge">custom.scss</code>, you’ll import Bootstrap’s source Sass files. You have two options: include all of Bootstrap, or pick the parts you need. We encourage the latter, though be aware there are some requirements and dependencies across our components. You also will need to include some JavaScript for our plugins.</p>
 
@@ -599,7 +599,7 @@
 
 <p>Many of Bootstrap’s various components and utilities are built through a series of colors defined in a Sass map. This map can be looped over in Sass to quickly generate a series of rulesets.</p>
 
-<h3 id="all-colors">All colors</h3>
+<h3 id="all-colors">すべての色</h3>
 
 <p>All colors available in Bootstrap 4, are available as Sass variables and a Sass map in our <code class="highlighter-rouge">scss/_variables.scss</code> file. This will be expanded upon in subsequent minor releases to add additional shades, much like the <a href="#grays">grayscale palette</a> we already include.</p>
 
