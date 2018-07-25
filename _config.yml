@@ -1,8 +1,0 @@
-# Server
-source:         translations/ja
-destination:    _deploy
-host:           0.0.0.0
-port:           9001
-baseurl:        ""
-url:            "https://bootstrap-docs-ja.netlify.com"
-encoding:       UTF-8
