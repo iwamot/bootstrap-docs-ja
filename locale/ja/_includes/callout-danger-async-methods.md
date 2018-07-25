@@ -1,7 +1,8 @@
-{% callout danger %}
-#### 非同期メソッドとトランジション
+{% capture callout %}
+#### Asynchronous methods and transitions
 
-すべての API のメソッドは**非同期**で、**トランジション**を開始します。トランジション開始後、すぐ呼び出し元に返りますが、**トランジションの終了前です**。また、**トランジション中のコンポーネントのメソッド呼び出しは無視されます**。
+All API methods are **asynchronous** and start a **transition**. They return to the caller as soon as the transition is started but **before it ends**. In addition, a method call on a **transitioning component will be ignored**.
 
-[詳しくは JavaScript ドキュメントをご参照ください。]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/javascript/)
-{% endcallout %}
+[See our JavaScript documentation for more information.]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/javascript/)
+{% endcapture %}
+{% include callout.html content=callout type="danger" %}

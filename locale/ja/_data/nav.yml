@@ -1,155 +1,86 @@
-- title: はじめに
-  id: Getting started
+- title: Getting started
   pages:
-    - title: 導入
-      id: Introduction
-    - title: ダウンロード
-      id: Download
-    - title: 含まれるもの
-      id: Contents
-    - title: ブラウザとデバイス
-      id: Browsers & devices
+    - title: Introduction
+    - title: Download
+    - title: Contents
+    - title: Browsers & devices
     - title: JavaScript
-      id: JavaScript
-    - title: テーマ
-      id: Theming
-    - title: ビルドツール
-      id: Build tools
+    - title: Theming
+    - title: Build tools
     # - title: Best practices # TODO: Write this content
     - title: Webpack
-      id: Webpack
-    - title: アクセシビリティ
-      id: Accessibility
+    - title: Accessibility
 
-- title: レイアウト
-  id: Layout
+- title: Layout
   pages:
-    - title: 概要
-      id: Overview
-    - title: グリッド
-      id: Grid
-    - title: メディアオブジェクト
-      id: Media object
-    - title: レイアウトユーティリティ
-      id: Utilities for layout
+    - title: Overview
+    - title: Grid
+    - title: Media object
+    - title: Utilities for layout
 
-- title: コンテンツ
-  id: Content
+- title: Content
   pages:
-    - title: Reboot (リセットCSS)
-      id: Reboot
-    - title: タイポグラフィ
-      id: Typography
-    - title: コード
-      id: Code
-    - title: 画像
-      id: Images
-    - title: テーブル
-      id: Tables
-    - title: 図表
-      id: Figures
+    - title: Reboot
+    - title: Typography
+    - title: Code
+    - title: Images
+    - title: Tables
+    - title: Figures
 
-- title: コンポーネント
-  id: Components
+- title: Components
   pages:
-    - title: アラート
-      id: Alerts
-    - title: バッジ
-      id: Badge
-    - title: パンくずリスト
-      id: Breadcrumb
-    - title: ボタン
-      id: Buttons
-    - title: ボタングループ
-      id: Button group
-    - title: カード
-      id: Card
-    - title: カルーセル
-      id: Carousel
-    - title: 表示／非表示
-      id: Collapse
-    - title: ドロップダウン
-      id: Dropdowns
-    - title: フォーム
-      id: Forms
-    - title: 入力グループ
-      id: Input group
-    - title: ジャンボトロン
-      id: Jumbotron
-    - title: リストグループ
-      id: List group
-    - title: モーダル
-      id: Modal
-    - title: ナビゲーション
-      id: Navs
-    - title: ナビゲーションバー
-      id: Navbar
-    - title: ページネーション
-      id: Pagination
-    - title: ポップオーバー
-      id: Popovers
-    - title: プログレスバー
-      id: Progress
-    - title: スクロール連動ナビ
-      id: Scrollspy
-    - title: ツールチップ
-      id: Tooltips
+    - title: Alerts
+    - title: Badge
+    - title: Breadcrumb
+    - title: Buttons
+    - title: Button group
+    - title: Card
+    - title: Carousel
+    - title: Collapse
+    - title: Dropdowns
+    - title: Forms
+    - title: Input group
+    - title: Jumbotron
+    - title: List group
+    - title: Modal
+    - title: Navs
+    - title: Navbar
+    - title: Pagination
+    - title: Popovers
+    - title: Progress
+    - title: Scrollspy
+    - title: Tooltips
 
-- title: ユーティリティ
-  id: Utilities
+- title: Utilities
   pages:
-    - title: 枠線
-      id: Borders
-    - title: フロート解除
-      id: Clearfix
-    - title: 閉じるアイコン
-      id: Close icon
-    - title: 色
-      id: Colors
-    - title: 表示形式
-      id: Display
-    - title: 埋め込み
-      id: Embed
-    - title: フレキシブルレイアウト
-      id: Flex
-    - title: フロート
-      id: Float
-    - title: 画像置き換え
-      id: Image replacement
-    - title: 表示位置
-      id: Position
-    - title: スクリーンリーダー
-      id: Screenreaders
-    - title: サイズ
-      id: Sizing
-    - title: 余白
-      id: Spacing
-    - title: テキスト
-      id: Text
-    - title: 縦位置
-      id: Vertical align
-    - title: 可視性
-      id: Visibility
+    - title: Borders
+    - title: Clearfix
+    - title: Close icon
+    - title: Colors
+    - title: Display
+    - title: Embed
+    - title: Flex
+    - title: Float
+    - title: Image replacement
+    - title: Position
+    - title: Screenreaders
+    - title: Shadows
+    - title: Sizing
+    - title: Spacing
+    - title: Text
+    - title: Vertical align
+    - title: Visibility
 
-- title: 拡張
-  id: Extend
+- title: Extend
   pages:
-    - title: アプローチ
-      id: Approach
-    - title: アイコン
-      id: Icons
+    - title: Approach
+    - title: Icons
 
-- title: マイグレーション
-  id: Migration
+- title: Migration
 
-- title: Bootstrap について
-  id: About
+- title: About
   pages:
-    - title: 概要
-      id: Overview
-    - title: ブランドガイドライン
-      id: Brand
-    - title: ライセンス
-      id: License
-    - title: 翻訳
-      id: Translations
+    - title: Overview
+    - title: Brand
+    - title: License
+    - title: Translations

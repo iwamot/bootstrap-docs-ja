@@ -13,603 +13,609 @@ source_file = locale/ja/_gh_pages/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_index-html]
-file_filter = translations/<lang>/docs/index.html
-source_file = locale/ja/_gh_pages/docs/index.html
+[bootstrap-docs-ja.docs_4-1_extend_icons_index-html]
+file_filter = translations/<lang>/docs/4.1/extend/icons/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/extend/icons/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_extend_icons_index-html]
-file_filter = translations/<lang>/docs/4.0/extend/icons/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/extend/icons/index.html
+[bootstrap-docs-ja.docs_4-1_extend_index-html]
+file_filter = translations/<lang>/docs/4.1/extend/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/extend/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_extend_index-html]
-file_filter = translations/<lang>/docs/4.0/extend/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/extend/index.html
+[bootstrap-docs-ja.docs_4-1_extend_approach_index-html]
+file_filter = translations/<lang>/docs/4.1/extend/approach/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/extend/approach/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_extend_approach_index-html]
-file_filter = translations/<lang>/docs/4.0/extend/approach/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/extend/approach/index.html
+[bootstrap-docs-ja.docs_4-1_migration_index-html]
+file_filter = translations/<lang>/docs/4.1/migration/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/migration/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_migration_index-html]
-file_filter = translations/<lang>/docs/4.0/migration/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/migration/index.html
+[bootstrap-docs-ja.docs_4-1_examples_tooltip-viewport_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/tooltip-viewport/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/tooltip-viewport/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_tooltip-viewport_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/tooltip-viewport/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/tooltip-viewport/index.html
+[bootstrap-docs-ja.docs_4-1_examples_blog_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/blog/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/blog/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_blog_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/blog/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/blog/index.html
+[bootstrap-docs-ja.docs_4-1_examples_navbar-bottom_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/navbar-bottom/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/navbar-bottom/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_navbar-bottom_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/navbar-bottom/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/navbar-bottom/index.html
+[bootstrap-docs-ja.docs_4-1_examples_sticky-footer-navbar_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/sticky-footer-navbar/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/sticky-footer-navbar/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_sticky-footer-navbar_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/sticky-footer-navbar/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/sticky-footer-navbar/index.html
+[bootstrap-docs-ja.docs_4-1_examples_sticky-footer_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/sticky-footer/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/sticky-footer/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_sticky-footer_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/sticky-footer/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/sticky-footer/index.html
+[bootstrap-docs-ja.docs_4-1_examples_floating-labels_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/floating-labels/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/floating-labels/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_floating-labels_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/floating-labels/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/floating-labels/index.html
+[bootstrap-docs-ja.docs_4-1_examples_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/index.html
+[bootstrap-docs-ja.docs_4-1_examples_checkout_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/checkout/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/checkout/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_checkout_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/checkout/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/checkout/index.html
+[bootstrap-docs-ja.docs_4-1_examples_product_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/product/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/product/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_product_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/product/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/product/index.html
+[bootstrap-docs-ja.docs_4-1_examples_pricing_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/pricing/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/pricing/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_pricing_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/pricing/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/pricing/index.html
+[bootstrap-docs-ja.docs_4-1_examples_cover_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/cover/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/cover/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_cover_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/cover/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/cover/index.html
+[bootstrap-docs-ja.docs_4-1_examples_navbar-fixed_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/navbar-fixed/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/navbar-fixed/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_navbar-fixed_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/navbar-fixed/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/navbar-fixed/index.html
+[bootstrap-docs-ja.docs_4-1_examples_sign-in_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/sign-in/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/sign-in/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_sign-in_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/sign-in/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/sign-in/index.html
+[bootstrap-docs-ja.docs_4-1_examples_carousel_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/carousel/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/carousel/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_carousel_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/carousel/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/carousel/index.html
+[bootstrap-docs-ja.docs_4-1_examples_grid_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/grid/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/grid/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_grid_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/grid/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/grid/index.html
+[bootstrap-docs-ja.docs_4-1_examples_album_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/album/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/album/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_album_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/album/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/album/index.html
+[bootstrap-docs-ja.docs_4-1_examples_dashboard_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/dashboard/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/dashboard/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_dashboard_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/dashboard/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/dashboard/index.html
+[bootstrap-docs-ja.docs_4-1_examples_jumbotron_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/jumbotron/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/jumbotron/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_jumbotron_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/jumbotron/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/jumbotron/index.html
+[bootstrap-docs-ja.docs_4-1_examples_navbar-static_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/navbar-static/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/navbar-static/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_navbar-static_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/navbar-static/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/navbar-static/index.html
+[bootstrap-docs-ja.docs_4-1_examples_offcanvas_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/offcanvas/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/offcanvas/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_offcanvas_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/offcanvas/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/offcanvas/index.html
+[bootstrap-docs-ja.docs_4-1_examples_starter-template_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/starter-template/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/starter-template/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_starter-template_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/starter-template/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/starter-template/index.html
+[bootstrap-docs-ja.docs_4-1_examples_navbars_index-html]
+file_filter = translations/<lang>/docs/4.1/examples/navbars/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/examples/navbars/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_examples_navbars_index-html]
-file_filter = translations/<lang>/docs/4.0/examples/navbars/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/examples/navbars/index.html
+[bootstrap-docs-ja.docs_4-1_index-html]
+file_filter = translations/<lang>/docs/4.1/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_index-html]
-file_filter = translations/<lang>/docs/4.0/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/index.html
+[bootstrap-docs-ja.docs_4-1_history_index-html]
+file_filter = translations/<lang>/docs/4.1/history/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/history/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_history_index-html]
-file_filter = translations/<lang>/docs/4.0/history/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/history/index.html
+[bootstrap-docs-ja.docs_4-1_content_typography_index-html]
+file_filter = translations/<lang>/docs/4.1/content/typography/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/content/typography/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_content_typography_index-html]
-file_filter = translations/<lang>/docs/4.0/content/typography/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/content/typography/index.html
+[bootstrap-docs-ja.docs_4-1_content_index-html]
+file_filter = translations/<lang>/docs/4.1/content/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/content/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_content_index-html]
-file_filter = translations/<lang>/docs/4.0/content/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/content/index.html
+[bootstrap-docs-ja.docs_4-1_content_code_index-html]
+file_filter = translations/<lang>/docs/4.1/content/code/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/content/code/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_content_code_index-html]
-file_filter = translations/<lang>/docs/4.0/content/code/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/content/code/index.html
+[bootstrap-docs-ja.docs_4-1_content_tables_index-html]
+file_filter = translations/<lang>/docs/4.1/content/tables/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/content/tables/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_content_tables_index-html]
-file_filter = translations/<lang>/docs/4.0/content/tables/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/content/tables/index.html
+[bootstrap-docs-ja.docs_4-1_content_reboot_index-html]
+file_filter = translations/<lang>/docs/4.1/content/reboot/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/content/reboot/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_content_reboot_index-html]
-file_filter = translations/<lang>/docs/4.0/content/reboot/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/content/reboot/index.html
+[bootstrap-docs-ja.docs_4-1_content_figures_index-html]
+file_filter = translations/<lang>/docs/4.1/content/figures/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/content/figures/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_content_figures_index-html]
-file_filter = translations/<lang>/docs/4.0/content/figures/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/content/figures/index.html
+[bootstrap-docs-ja.docs_4-1_content_images_index-html]
+file_filter = translations/<lang>/docs/4.1/content/images/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/content/images/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_content_images_index-html]
-file_filter = translations/<lang>/docs/4.0/content/images/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/content/images/index.html
+[bootstrap-docs-ja.docs_4-1_team_index-html]
+file_filter = translations/<lang>/docs/4.1/team/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/team/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_team_index-html]
-file_filter = translations/<lang>/docs/4.0/team/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/team/index.html
+[bootstrap-docs-ja.docs_4-1_layout_index-html]
+file_filter = translations/<lang>/docs/4.1/layout/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/layout/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_layout_index-html]
-file_filter = translations/<lang>/docs/4.0/layout/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/layout/index.html
+[bootstrap-docs-ja.docs_4-1_layout_overview_index-html]
+file_filter = translations/<lang>/docs/4.1/layout/overview/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/layout/overview/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_layout_overview_index-html]
-file_filter = translations/<lang>/docs/4.0/layout/overview/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/layout/overview/index.html
+[bootstrap-docs-ja.docs_4-1_layout_media-object_index-html]
+file_filter = translations/<lang>/docs/4.1/layout/media-object/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/layout/media-object/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_layout_media-object_index-html]
-file_filter = translations/<lang>/docs/4.0/layout/media-object/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/layout/media-object/index.html
+[bootstrap-docs-ja.docs_4-1_layout_grid_index-html]
+file_filter = translations/<lang>/docs/4.1/layout/grid/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/layout/grid/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_layout_grid_index-html]
-file_filter = translations/<lang>/docs/4.0/layout/grid/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/layout/grid/index.html
+[bootstrap-docs-ja.docs_4-1_layout_utilities-for-layout_index-html]
+file_filter = translations/<lang>/docs/4.1/layout/utilities-for-layout/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/layout/utilities-for-layout/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_layout_utilities-for-layout_index-html]
-file_filter = translations/<lang>/docs/4.0/layout/utilities-for-layout/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/layout/utilities-for-layout/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_accessibility_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/accessibility/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/accessibility/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_accessibility_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/accessibility/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/accessibility/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_options_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/options/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/options/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_options_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/options/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/options/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_best-practices_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/best-practices/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/best-practices/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_best-practices_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/best-practices/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/best-practices/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_build-tools_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/build-tools/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/build-tools/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_build-tools_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/build-tools/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/build-tools/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_introduction_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/introduction/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/introduction/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_introduction_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/introduction/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/introduction/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_theming_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/theming/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/theming/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_theming_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/theming/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/theming/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_webpack_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/webpack/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/webpack/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_webpack_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/webpack/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/webpack/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_javascript_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/javascript/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/javascript/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_javascript_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/javascript/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/javascript/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_contents_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/contents/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/contents/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_contents_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/contents/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/contents/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_browsers-devices_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/browsers-devices/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/browsers-devices/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_browsers-devices_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/browsers-devices/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/browsers-devices/index.html
+[bootstrap-docs-ja.docs_4-1_getting-started_download_index-html]
+file_filter = translations/<lang>/docs/4.1/getting-started/download/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/getting-started/download/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_getting-started_download_index-html]
-file_filter = translations/<lang>/docs/4.0/getting-started/download/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/getting-started/download/index.html
+[bootstrap-docs-ja.docs_4-1_browser-bugs_index-html]
+file_filter = translations/<lang>/docs/4.1/browser-bugs/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/browser-bugs/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_browser-bugs_index-html]
-file_filter = translations/<lang>/docs/4.0/browser-bugs/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/browser-bugs/index.html
+[bootstrap-docs-ja.docs_4-1_components_breadcrumb_index-html]
+file_filter = translations/<lang>/docs/4.1/components/breadcrumb/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/breadcrumb/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_breadcrumb_index-html]
-file_filter = translations/<lang>/docs/4.0/components/breadcrumb/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/breadcrumb/index.html
+[bootstrap-docs-ja.docs_4-1_components_buttons_index-html]
+file_filter = translations/<lang>/docs/4.1/components/buttons/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/buttons/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_buttons_index-html]
-file_filter = translations/<lang>/docs/4.0/components/buttons/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/buttons/index.html
+[bootstrap-docs-ja.docs_4-1_components_scrollspy_index-html]
+file_filter = translations/<lang>/docs/4.1/components/scrollspy/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/scrollspy/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_scrollspy_index-html]
-file_filter = translations/<lang>/docs/4.0/components/scrollspy/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/scrollspy/index.html
+[bootstrap-docs-ja.docs_4-1_components_index-html]
+file_filter = translations/<lang>/docs/4.1/components/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_index-html]
-file_filter = translations/<lang>/docs/4.0/components/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/index.html
+[bootstrap-docs-ja.docs_4-1_components_alerts_index-html]
+file_filter = translations/<lang>/docs/4.1/components/alerts/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/alerts/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_alerts_index-html]
-file_filter = translations/<lang>/docs/4.0/components/alerts/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/alerts/index.html
+[bootstrap-docs-ja.docs_4-1_components_forms_index-html]
+file_filter = translations/<lang>/docs/4.1/components/forms/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/forms/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_forms_index-html]
-file_filter = translations/<lang>/docs/4.0/components/forms/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/forms/index.html
+[bootstrap-docs-ja.docs_4-1_components_navs_index-html]
+file_filter = translations/<lang>/docs/4.1/components/navs/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/navs/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_navs_index-html]
-file_filter = translations/<lang>/docs/4.0/components/navs/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/navs/index.html
+[bootstrap-docs-ja.docs_4-1_components_popovers_index-html]
+file_filter = translations/<lang>/docs/4.1/components/popovers/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/popovers/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_popovers_index-html]
-file_filter = translations/<lang>/docs/4.0/components/popovers/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/popovers/index.html
+[bootstrap-docs-ja.docs_4-1_components_input-group_index-html]
+file_filter = translations/<lang>/docs/4.1/components/input-group/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/input-group/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_input-group_index-html]
-file_filter = translations/<lang>/docs/4.0/components/input-group/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/input-group/index.html
+[bootstrap-docs-ja.docs_4-1_components_tooltips_index-html]
+file_filter = translations/<lang>/docs/4.1/components/tooltips/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/tooltips/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_tooltips_index-html]
-file_filter = translations/<lang>/docs/4.0/components/tooltips/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/tooltips/index.html
+[bootstrap-docs-ja.docs_4-1_components_card_index-html]
+file_filter = translations/<lang>/docs/4.1/components/card/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/card/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_card_index-html]
-file_filter = translations/<lang>/docs/4.0/components/card/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/card/index.html
+[bootstrap-docs-ja.docs_4-1_components_list-group_index-html]
+file_filter = translations/<lang>/docs/4.1/components/list-group/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/list-group/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_list-group_index-html]
-file_filter = translations/<lang>/docs/4.0/components/list-group/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/list-group/index.html
+[bootstrap-docs-ja.docs_4-1_components_pagination_index-html]
+file_filter = translations/<lang>/docs/4.1/components/pagination/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/pagination/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_pagination_index-html]
-file_filter = translations/<lang>/docs/4.0/components/pagination/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/pagination/index.html
+[bootstrap-docs-ja.docs_4-1_components_dropdowns_index-html]
+file_filter = translations/<lang>/docs/4.1/components/dropdowns/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/dropdowns/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_dropdowns_index-html]
-file_filter = translations/<lang>/docs/4.0/components/dropdowns/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/dropdowns/index.html
+[bootstrap-docs-ja.docs_4-1_components_carousel_index-html]
+file_filter = translations/<lang>/docs/4.1/components/carousel/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/carousel/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_carousel_index-html]
-file_filter = translations/<lang>/docs/4.0/components/carousel/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/carousel/index.html
+[bootstrap-docs-ja.docs_4-1_components_collapse_index-html]
+file_filter = translations/<lang>/docs/4.1/components/collapse/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/collapse/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_collapse_index-html]
-file_filter = translations/<lang>/docs/4.0/components/collapse/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/collapse/index.html
+[bootstrap-docs-ja.docs_4-1_components_navbar_index-html]
+file_filter = translations/<lang>/docs/4.1/components/navbar/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/navbar/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_navbar_index-html]
-file_filter = translations/<lang>/docs/4.0/components/navbar/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/navbar/index.html
+[bootstrap-docs-ja.docs_4-1_components_jumbotron_index-html]
+file_filter = translations/<lang>/docs/4.1/components/jumbotron/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/jumbotron/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_jumbotron_index-html]
-file_filter = translations/<lang>/docs/4.0/components/jumbotron/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/jumbotron/index.html
+[bootstrap-docs-ja.docs_4-1_components_badge_index-html]
+file_filter = translations/<lang>/docs/4.1/components/badge/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/badge/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_badge_index-html]
-file_filter = translations/<lang>/docs/4.0/components/badge/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/badge/index.html
+[bootstrap-docs-ja.docs_4-1_components_progress_index-html]
+file_filter = translations/<lang>/docs/4.1/components/progress/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/progress/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_progress_index-html]
-file_filter = translations/<lang>/docs/4.0/components/progress/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/progress/index.html
+[bootstrap-docs-ja.docs_4-1_components_modal_index-html]
+file_filter = translations/<lang>/docs/4.1/components/modal/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/modal/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_modal_index-html]
-file_filter = translations/<lang>/docs/4.0/components/modal/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/modal/index.html
+[bootstrap-docs-ja.docs_4-1_components_button-group_index-html]
+file_filter = translations/<lang>/docs/4.1/components/button-group/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/components/button-group/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_components_button-group_index-html]
-file_filter = translations/<lang>/docs/4.0/components/button-group/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/components/button-group/index.html
+[bootstrap-docs-ja.docs_4-1_about_translations_index-html]
+file_filter = translations/<lang>/docs/4.1/about/translations/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/about/translations/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_about_translations_index-html]
-file_filter = translations/<lang>/docs/4.0/about/translations/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/about/translations/index.html
+[bootstrap-docs-ja.docs_4-1_about_brand_index-html]
+file_filter = translations/<lang>/docs/4.1/about/brand/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/about/brand/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_about_brand_index-html]
-file_filter = translations/<lang>/docs/4.0/about/brand/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/about/brand/index.html
+[bootstrap-docs-ja.docs_4-1_about_index-html]
+file_filter = translations/<lang>/docs/4.1/about/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/about/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_about_index-html]
-file_filter = translations/<lang>/docs/4.0/about/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/about/index.html
+[bootstrap-docs-ja.docs_4-1_about_overview_index-html]
+file_filter = translations/<lang>/docs/4.1/about/overview/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/about/overview/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_about_overview_index-html]
-file_filter = translations/<lang>/docs/4.0/about/overview/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/about/overview/index.html
+[bootstrap-docs-ja.docs_4-1_about_license_index-html]
+file_filter = translations/<lang>/docs/4.1/about/license/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/about/license/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_about_license_index-html]
-file_filter = translations/<lang>/docs/4.0/about/license/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/about/license/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_text_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/text/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/text/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_text_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/text/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/text/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_visibility_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/visibility/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/visibility/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_visibility_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/visibility/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/visibility/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_colors_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/colors/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/colors/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_colors_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/colors/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/colors/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_close-icon_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/close-icon/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/close-icon/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_close-icon_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/close-icon/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/close-icon/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_shadows_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/shadows/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/shadows/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_embed_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/embed/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/embed/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_embed_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/embed/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/embed/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_clearfix_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/clearfix/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/clearfix/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_clearfix_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/clearfix/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/clearfix/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_screenreaders_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/screenreaders/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/screenreaders/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_screenreaders_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/screenreaders/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/screenreaders/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_flex_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/flex/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/flex/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_flex_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/flex/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/flex/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_float_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/float/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/float/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_float_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/float/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/float/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_vertical-align_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/vertical-align/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/vertical-align/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_vertical-align_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/vertical-align/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/vertical-align/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_position_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/position/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/position/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_position_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/position/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/position/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_image-replacement_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/image-replacement/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/image-replacement/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_image-replacement_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/image-replacement/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/image-replacement/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_spacing_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/spacing/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/spacing/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_spacing_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/spacing/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/spacing/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_sizing_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/sizing/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/sizing/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_sizing_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/sizing/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/sizing/index.html
 source_lang = en
 type = HTML
 
-[bootstrap-docs-ja.docs_4-0_utilities_display_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/display/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/display/index.html
-source_lang = en
-type = HTML
-
-[bootstrap-docs-ja.docs_4-0_utilities_borders_index-html]
-file_filter = translations/<lang>/docs/4.0/utilities/borders/index.html
-source_file = locale/ja/_gh_pages/docs/4.0/utilities/borders/index.html
+[bootstrap-docs-ja.docs_4-1_utilities_display_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/display/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/display/index.html
 source_lang = en
 type = HTML
 
 [bootstrap-docs-ja.docs_getting-started_index-html]
 file_filter = translations/<lang>/docs/getting-started/index.html
 source_file = locale/ja/_gh_pages/docs/getting-started/index.html
+source_lang = en
+type = HTML
+
+[bootstrap-docs-ja.docs_4-1_utilities_borders_index-html]
+file_filter = translations/<lang>/docs/4.1/utilities/borders/index.html
+source_file = locale/ja/_gh_pages/docs/4.1/utilities/borders/index.html
+source_lang = en
+type = HTML
+
+[bootstrap-docs-ja.docs_index-html]
+file_filter = translations/<lang>/docs/index.html
+source_file = locale/ja/_gh_pages/docs/index.html
 source_lang = en
 type = HTML
 
