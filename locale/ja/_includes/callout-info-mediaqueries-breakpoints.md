@@ -1,3 +1,3 @@
 {% callout info %}
-現時点ではブラウザが[レンジコンテキストクエリ](https://www.w3.org/TR/mediaqueries-4/#range-context)をサポートしていないため、[`min-` および `max-` プレフィックス](https://www.w3.org/TR/mediaqueries-4/#mq-min-max)や小数幅のビューポート（たとえば、高dpiデバイスにおいて特定の条件下で発生する可能性があります）の制限に対し、高精度の値で比較して対処している点にご注意ください。
+Note that since browsers do not currently support [range context queries](https://www.w3.org/TR/mediaqueries-4/#range-context), we work around the limitations of [`min-` and `max-` prefixes](https://www.w3.org/TR/mediaqueries-4/#mq-min-max) and viewports with fractional widths (which can occur under certain conditions on high-dpi devices, for instance) by using values with higher precision for these comparisons.
 {% endcallout %}
