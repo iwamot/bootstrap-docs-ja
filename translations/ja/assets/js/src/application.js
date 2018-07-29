@@ -54,7 +54,7 @@
 
     // Insert copy to clipboard button before .highlight
     $('figure.highlight, div.highlight').each(function () {
-      var btnHtml = '<div class="bd-clipboard"><button class="btn-clipboard" title="Copy to clipboard">Copy</button></div>'
+      var btnHtml = '<div class="bd-clipboard"><button class="btn-clipboard" title="クリップボードにコピー">Copy</button></div>'
       $(this).before(btnHtml)
       $('.btn-clipboard')
         .tooltip()
@@ -74,10 +74,10 @@
 
     clipboard.on('success', function (e) {
       $(e.trigger)
-        .attr('title', 'Copied!')
+        .attr('title', 'コピーしました！')
         .tooltip('_fixTitle')
         .tooltip('show')
-        .attr('title', 'Copy to clipboard')
+        .attr('title', 'クリップボードにコピー')
         .tooltip('_fixTitle')
 
       e.clearSelection()
@@ -85,13 +85,13 @@
 
     clipboard.on('error', function (e) {
       var modifierKey = /Mac/i.test(navigator.userAgent) ? '\u2318' : 'Ctrl-'
-      var fallbackMsg = 'Press ' + modifierKey + 'C to copy'
+      var fallbackMsg = modifierKey + 'C を押してコピーしてください'
 
       $(e.trigger)
         .attr('title', fallbackMsg)
         .tooltip('_fixTitle')
         .tooltip('show')
-        .attr('title', 'Copy to clipboard')
+        .attr('title', 'クリップボードにコピー')
         .tooltip('_fixTitle')
     })
 
