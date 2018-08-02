@@ -339,13 +339,13 @@
 <a href="#form-controls">フォームコントロール</a><ul>
 <li class="toc-entry toc-h3"><a href="#sizing">サイズ</a></li>
 <li class="toc-entry toc-h3"><a href="#readonly">readonly</a></li>
-<li class="toc-entry toc-h3"><a href="#readonly-plain-text">Readonly plain text</a></li>
+<li class="toc-entry toc-h3"><a href="#readonly-plain-text">読み取り専用のプレーンテキスト</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h2"><a href="#range-inputs">Range Inputs</a></li>
+<li class="toc-entry toc-h2"><a href="#range-inputs">範囲入力</a></li>
 <li class="toc-entry toc-h2">
 <a href="#checkboxes-and-radios">チェックボックスとラジオボタン</a><ul>
-<li class="toc-entry toc-h3"><a href="#default-stacked">Default (stacked)</a></li>
+<li class="toc-entry toc-h3"><a href="#default-stacked">デフォルト（積み重ね）</a></li>
 <li class="toc-entry toc-h3"><a href="#inline">インライン</a></li>
 <li class="toc-entry toc-h3"><a href="#without-labels">ラベルなし</a></li>
 </ul>
@@ -547,7 +547,7 @@
 <p>Add the <code class="highlighter-rouge">readonly</code> boolean attribute on an input to prevent modification of the input’s value. Read-only inputs appear lighter (just like disabled inputs), but retain the standard cursor.</p>
 
 <div class="bd-example"><input class="form-control" type="text" placeholder="Readonly input here…" readonly></div>
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Readonly input here…"</span> <span class="na">readonly</span><span class="nt">&gt;</span></code></pre></figure><h3 id="readonly-plain-text">Readonly plain text</h3>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;input</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">placeholder=</span><span class="s">"Readonly input here…"</span> <span class="na">readonly</span><span class="nt">&gt;</span></code></pre></figure><h3 id="readonly-plain-text">読み取り専用のプレーンテキスト</h3>
 
 <p>If you want to have <code class="highlighter-rouge">&lt;input readonly&gt;</code> elements in your form styled as plain text, use the <code class="highlighter-rouge">.form-control-plaintext</code> class to remove the default form field styling and preserve the correct margin and padding.</p>
 
@@ -597,7 +597,7 @@
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"password"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"inputPassword2"</span> <span class="na">placeholder=</span><span class="s">"Password"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">class=</span><span class="s">"btn btn-primary mb-2"</span><span class="nt">&gt;</span>Confirm identity<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;/form&gt;</span></code></pre></figure><h2 id="range-inputs">Range Inputs</h2>
+<span class="nt">&lt;/form&gt;</span></code></pre></figure><h2 id="range-inputs">範囲入力</h2>
 
 <p>Set horizontally scrollable range inputs using <code class="highlighter-rouge">.form-control-range</code>.</p>
 
@@ -622,7 +622,7 @@
 
 <p>Checkboxes and radios use are built to support HTML-based form validation and provide concise, accessible labels. As such, our <code class="highlighter-rouge">&lt;input&gt;</code>s and <code class="highlighter-rouge">&lt;label&gt;</code>s are sibling elements as opposed to an <code class="highlighter-rouge">&lt;input&gt;</code> within a <code class="highlighter-rouge">&lt;label&gt;</code>. This is slightly more verbose as you must specify <code class="highlighter-rouge">id</code> and <code class="highlighter-rouge">for</code> attributes to relate the <code class="highlighter-rouge">&lt;input&gt;</code> and <code class="highlighter-rouge">&lt;label&gt;</code>.</p>
 
-<h3 id="default-stacked">Default (stacked)</h3>
+<h3 id="default-stacked">デフォルト（積み重ね）</h3>
 
 <p>By default, any number of checkboxes and radios that are immediate sibling will be vertically stacked and appropriately spaced with <code class="highlighter-rouge">.form-check</code>.</p>
 
