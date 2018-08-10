@@ -344,12 +344,12 @@
 <li class="toc-entry toc-h3">
 <a href="#maps-and-loops">Maps and loops</a><ul>
 <li class="toc-entry toc-h4"><a href="#modify-map">Modify map</a></li>
-<li class="toc-entry toc-h4"><a href="#add-to-map">Add to map</a></li>
-<li class="toc-entry toc-h4"><a href="#remove-from-map">Remove from map</a></li>
-<li class="toc-entry toc-h4"><a href="#required-keys">Required keys</a></li>
+<li class="toc-entry toc-h4"><a href="#add-to-map">マップへの追加</a></li>
+<li class="toc-entry toc-h4"><a href="#remove-from-map">マップからの削除</a></li>
+<li class="toc-entry toc-h4"><a href="#required-keys">必須のキー</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h3"><a href="#functions">Functions</a></li>
+<li class="toc-entry toc-h3"><a href="#functions">関数</a></li>
 <li class="toc-entry toc-h3"><a href="#color-contrast">色のコントラスト</a></li>
 </ul>
 </li>
@@ -369,7 +369,7 @@
 </li>
 <li class="toc-entry toc-h2">
 <a href="#css-variables">CSS variables</a><ul>
-<li class="toc-entry toc-h3"><a href="#available-variables">Available variables</a></li>
+<li class="toc-entry toc-h3"><a href="#available-variables">利用可能な変数</a></li>
 <li class="toc-entry toc-h3"><a href="#examples">サンプル</a></li>
 </ul>
 </li>
@@ -378,7 +378,7 @@
         
 
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main"><h1 class="bd-title" id="content">Theming Bootstrap</h1>
-          <p class="bd-lead">テーマやコンポーネントが簡単に変えられる、グローバルスタイル設定用の組み込みSass変数で、Bootstrap 4 をカスタマイズしましょう。</p>
+          <p class="bd-lead">テーマやコンポーネントが簡単に変えられる、グローバルスタイル設定用の組み込み Sass 変数で、Bootstrap 4 をカスタマイズしましょう。</p>
           <script async src="https://cdn.carbonads.com/carbon.js?zoneid=1673&amp;serve=C6AILKT&amp;placement=getbootstrapcom" id="_carbonads_js"></script><h2 id="introduction">はじめに</h2>
 
 <p>In Bootstrap 3, theming was largely driven by variable overrides in LESS, custom CSS, and a separate theme stylesheet that we included in our <code class="highlighter-rouge">dist</code> files. With some effort, one could completely redesign the look of Bootstrap 3 without touching the core files. Bootstrap 4 provides a familiar, but slightly different approach.</p>
@@ -456,25 +456,25 @@
 <figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nv">$theme-colors</span><span class="p">:</span> <span class="p">(</span>
   <span class="s2">"primary"</span><span class="o">:</span> <span class="mh">#0074d9</span><span class="o">,</span>
   <span class="s2">"danger"</span><span class="o">:</span> <span class="mh">#ff4136</span>
-<span class="p">);</span></code></pre></figure><h4 id="add-to-map">Add to map</h4>
+<span class="p">);</span></code></pre></figure><h4 id="add-to-map">マップへの追加</h4>
 
 <p>To add a new color to <code class="highlighter-rouge">$theme-colors</code>, add the new key and value:</p>
 
 <figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nv">$theme-colors</span><span class="p">:</span> <span class="p">(</span>
   <span class="s2">"custom-color"</span><span class="o">:</span> <span class="mh">#900</span>
-<span class="p">);</span></code></pre></figure><h4 id="remove-from-map">Remove from map</h4>
+<span class="p">);</span></code></pre></figure><h4 id="remove-from-map">マップからの削除</h4>
 
 <p>To remove colors from <code class="highlighter-rouge">$theme-colors</code>, or any other map, use <code class="highlighter-rouge">map-remove</code>:</p>
 
-<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nv">$theme-colors</span><span class="p">:</span> <span class="nf">map-remove</span><span class="p">(</span><span class="nv">$theme-colors</span><span class="o">,</span> <span class="s2">"success"</span><span class="o">,</span> <span class="s2">"info"</span><span class="o">,</span> <span class="s2">"danger"</span><span class="p">);</span></code></pre></figure><h4 id="required-keys">Required keys</h4>
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nv">$theme-colors</span><span class="p">:</span> <span class="nf">map-remove</span><span class="p">(</span><span class="nv">$theme-colors</span><span class="o">,</span> <span class="s2">"success"</span><span class="o">,</span> <span class="s2">"info"</span><span class="o">,</span> <span class="s2">"danger"</span><span class="p">);</span></code></pre></figure><h4 id="required-keys">必須のキー</h4>
 
 <p>Bootstrap assumes the presence of some specific keys within Sass maps as we used and extend these ourselves. As you customize the included maps, you may encounter errors where a specific Sass map’s key is being used.</p>
 
 <p>For example, we use the <code class="highlighter-rouge">primary</code>, <code class="highlighter-rouge">success</code>, and <code class="highlighter-rouge">danger</code> keys from <code class="highlighter-rouge">$theme-colors</code> for links, buttons, and form states. Replacing the values of these keys should present no issues, but removing them may cause Sass compilation issues. In these instances, you’ll need to modify the Sass code that makes use of those values.</p>
 
-<h3 id="functions">Functions</h3>
+<h3 id="functions">関数</h3>
 
-<p>Bootstrap utilizes several Sass functions, but only a subset are applicable to general theming. We’ve included three functions for getting values from the color maps:</p>
+<p>関数</p>
 
 <figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="k">@function</span> <span class="nf">color</span><span class="p">(</span><span class="nv">$key</span><span class="o">:</span> <span class="s2">"blue"</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">@return</span> <span class="nf">map-get</span><span class="p">(</span><span class="nv">$colors</span><span class="o">,</span> <span class="nv">$key</span><span class="p">);</span>
@@ -811,7 +811,7 @@
 
 <p>Bootstrap 4 includes around two dozen <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables">CSS custom properties (variables)</a> in it’s compiled CSS. These provide easy access to commonly used values like our theme colors, breakpoints, and primary font stacks when working in your browser’s Inspector, a code sandbox, or general prototyping.</p>
 
-<h3 id="available-variables">Available variables</h3>
+<h3 id="available-variables">利用可能な変数</h3>
 
 <p>Here are the variables we include (note that the <code class="highlighter-rouge">:root</code> is required). They’re located in our <code class="highlighter-rouge">_root.scss</code> file.</p>
 
