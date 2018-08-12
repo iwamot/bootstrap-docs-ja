@@ -337,16 +337,16 @@
 <li class="toc-entry toc-h2"><a href="#how-it-works">仕組み</a></li>
 <li class="toc-entry toc-h2">
 <a href="#example">サンプル</a><ul>
-<li class="toc-entry toc-h3"><a href="#slides-only">Slides only</a></li>
-<li class="toc-entry toc-h3"><a href="#with-controls">With controls</a></li>
-<li class="toc-entry toc-h3"><a href="#with-indicators">With indicators</a></li>
-<li class="toc-entry toc-h3"><a href="#with-captions">With captions</a></li>
-<li class="toc-entry toc-h3"><a href="#crossfade">Crossfade</a></li>
+<li class="toc-entry toc-h3"><a href="#slides-only">スライドのみ</a></li>
+<li class="toc-entry toc-h3"><a href="#with-controls">コントロール付き</a></li>
+<li class="toc-entry toc-h3"><a href="#with-indicators">インジケータ付き</a></li>
+<li class="toc-entry toc-h3"><a href="#with-captions">キャプション付き</a></li>
+<li class="toc-entry toc-h3"><a href="#crossfade">クロスフェード</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2">
 <a href="#usage">使い方</a><ul>
-<li class="toc-entry toc-h3"><a href="#via-data-attributes">Via data attributes</a></li>
+<li class="toc-entry toc-h3"><a href="#via-data-attributes">データ属性経由</a></li>
 <li class="toc-entry toc-h3"><a href="#via-javascript">JavaScript 経由</a></li>
 <li class="toc-entry toc-h3"><a href="#options">オプション</a></li>
 <li class="toc-entry toc-h3">
@@ -362,7 +362,7 @@
 </ul>
 </li>
 <li class="toc-entry toc-h3"><a href="#events">イベント</a></li>
-<li class="toc-entry toc-h3"><a href="#change-transition-duration">Change transition duration</a></li>
+<li class="toc-entry toc-h3"><a href="#change-transition-duration">トランジション間隔の変更</a></li>
 </ul>
 </li>
 </ul>
@@ -387,7 +387,7 @@
 
 <p><strong>The <code class="highlighter-rouge">.active</code> class needs to be added to one of the slides</strong> otherwise the carousel will not be visible. Also be sure to set a unique id on the <code class="highlighter-rouge">.carousel</code> for optional controls, especially if you’re using multiple carousels on a single page. Control and indicator elements must have a <code class="highlighter-rouge">data-target</code> attribute (or <code class="highlighter-rouge">href</code> for links) that matches the id of the <code class="highlighter-rouge">.carousel</code> element.</p>
 
-<h3 id="slides-only">Slides only</h3>
+<h3 id="slides-only">スライドのみ</h3>
 
 <p>Here’s a carousel with slides only. Note the presence of the <code class="highlighter-rouge">.d-block</code> and <code class="highlighter-rouge">.w-100</code> on carousel images to prevent browser default image alignment.</p>
 
@@ -412,7 +412,7 @@
       <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">"d-block w-100"</span> <span class="na">src=</span><span class="s">".../800x400?auto=yes&amp;bg=555&amp;fg=333&amp;text=Third slide"</span> <span class="na">alt=</span><span class="s">"Third slide"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="with-controls">With controls</h3>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="with-controls">コントロール付き</h3>
 
 <p>Adding in the previous and next controls:</p>
 
@@ -453,7 +453,7 @@
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"carousel-control-next-icon"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/span&gt;</span>
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Next<span class="nt">&lt;/span&gt;</span>
   <span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="with-indicators">With indicators</h3>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="with-indicators">インジケータ付き</h3>
 
 <p>You can also add the indicators to the carousel, alongside the controls, too.</p>
 
@@ -507,7 +507,7 @@
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"carousel-control-next-icon"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/span&gt;</span>
     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>Next<span class="nt">&lt;/span&gt;</span>
   <span class="nt">&lt;/a&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="with-captions">With captions</h3>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="with-captions">キャプション付き</h3>
 
 <p>Add captions to your slides easily with the <code class="highlighter-rouge">.carousel-caption</code> element within any <code class="highlighter-rouge">.carousel-item</code>. They can be easily hidden on smaller viewports, as shown below, with optional <a href="/docs/4.1/utilities/display/">display utilities</a>. We hide them initially with <code class="highlighter-rouge">.d-none</code> and bring them back on medium-sized devices with <code class="highlighter-rouge">.d-md-block</code>.</p>
 
@@ -558,7 +558,7 @@
     <span class="nt">&lt;h5&gt;</span>...<span class="nt">&lt;/h5&gt;</span>
     <span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="crossfade">Crossfade</h3>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="crossfade">クロスフェード</h3>
 
 <p>Add <code class="highlighter-rouge">.carousel-fade</code> to your carousel to animate slides with a fade transition instead of a slide.</p>
 
@@ -601,7 +601,7 @@
   <span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure><h2 id="usage">使い方</h2>
 
-<h3 id="via-data-attributes">Via data attributes</h3>
+<h3 id="via-data-attributes">データ属性経由</h3>
 
 <p>Use data attributes to easily control the position of the carousel. <code class="highlighter-rouge">data-slide</code> accepts the keywords <code class="highlighter-rouge">prev</code> or <code class="highlighter-rouge">next</code>, which alters the slide position relative to its current position. Alternatively, use <code class="highlighter-rouge">data-slide-to</code> to pass a raw slide index to the carousel <code class="highlighter-rouge">data-slide-to="2"</code>, which shifts the slide position to a particular index beginning with <code class="highlighter-rouge">0</code>.</p>
 
@@ -732,7 +732,7 @@
 </table>
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#myCarousel'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">'slide.bs.carousel'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
   <span class="c1">// do something…</span>
-<span class="p">})</span></code></pre></figure><h3 id="change-transition-duration">Change transition duration</h3>
+<span class="p">})</span></code></pre></figure><h3 id="change-transition-duration">トランジション間隔の変更</h3>
 
 <p>The transition duration of <code class="highlighter-rouge">.carousel-item</code> can be changed with the <code class="highlighter-rouge">$carousel-transition</code> Sass variable before compiling or custom styles if you’re using the compiled CSS. If multiple transitions are applied, make sure the transform transition is defined first (eg. <code class="highlighter-rouge">transition: transform 2s ease, opacity .5s ease-out</code>).</p>
 

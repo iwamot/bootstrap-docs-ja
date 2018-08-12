@@ -339,21 +339,21 @@
 <a href="#examples">サンプル</a><ul>
 <li class="toc-entry toc-h3"><a href="#modal-components">モーダルコンポーネント</a></li>
 <li class="toc-entry toc-h3"><a href="#live-demo">ライブデモ</a></li>
-<li class="toc-entry toc-h3"><a href="#scrolling-long-content">Scrolling long content</a></li>
-<li class="toc-entry toc-h3"><a href="#vertically-centered">Vertically centered</a></li>
+<li class="toc-entry toc-h3"><a href="#scrolling-long-content">長いコンテンツのスクロール</a></li>
+<li class="toc-entry toc-h3"><a href="#vertically-centered">縦位置のセンタリング</a></li>
 <li class="toc-entry toc-h3"><a href="#tooltips-and-popovers">ツールチップとポップオーバー</a></li>
-<li class="toc-entry toc-h3"><a href="#using-the-grid">Using the grid</a></li>
+<li class="toc-entry toc-h3"><a href="#using-the-grid">グリッドの使用</a></li>
 <li class="toc-entry toc-h3"><a href="#varying-modal-content">Varying modal content</a></li>
-<li class="toc-entry toc-h3"><a href="#remove-animation">Remove animation</a></li>
-<li class="toc-entry toc-h3"><a href="#dynamic-heights">Dynamic heights</a></li>
+<li class="toc-entry toc-h3"><a href="#remove-animation">アニメーションの削除</a></li>
+<li class="toc-entry toc-h3"><a href="#dynamic-heights">高さの動的調整</a></li>
 <li class="toc-entry toc-h3"><a href="#accessibility">アクセシビリティ</a></li>
 <li class="toc-entry toc-h3"><a href="#embedding-youtube-videos">YouTube 動画の埋め込み</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h2"><a href="#optional-sizes">Optional sizes</a></li>
+<li class="toc-entry toc-h2"><a href="#optional-sizes">別のサイズ</a></li>
 <li class="toc-entry toc-h2">
 <a href="#usage">使い方</a><ul>
-<li class="toc-entry toc-h3"><a href="#via-data-attributes">Via data attributes</a></li>
+<li class="toc-entry toc-h3"><a href="#via-data-attributes">データ属性経由</a></li>
 <li class="toc-entry toc-h3"><a href="#via-javascript">JavaScript 経由</a></li>
 <li class="toc-entry toc-h3"><a href="#options">オプション</a></li>
 <li class="toc-entry toc-h3">
@@ -490,7 +490,7 @@
       <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="scrolling-long-content">Scrolling long content</h3>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="scrolling-long-content">長いコンテンツのスクロール</h3>
 
 <p>When modals become too long for the user’s viewport or device, they scroll independent of the page itself. Try the demo below to see what we mean.</p>
 
@@ -559,7 +559,7 @@
       <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="vertically-centered">Vertically centered</h3>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="vertically-centered">縦位置のセンタリング</h3>
 
 <p>Add <code class="highlighter-rouge">.modal-dialog-centered</code> to <code class="highlighter-rouge">.modal-dialog</code> to vertically center the modal.</p>
 
@@ -649,7 +649,7 @@
   <span class="nt">&lt;hr&gt;</span>
   <span class="nt">&lt;h5&gt;</span>Tooltips in a modal<span class="nt">&lt;/h5&gt;</span>
   <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"tooltip-test"</span> <span class="na">title=</span><span class="s">"Tooltip"</span><span class="nt">&gt;</span>This link<span class="nt">&lt;/a&gt;</span> and <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"tooltip-test"</span> <span class="na">title=</span><span class="s">"Tooltip"</span><span class="nt">&gt;</span>that link<span class="nt">&lt;/a&gt;</span> have tooltips on hover.<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="using-the-grid">Using the grid</h3>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="using-the-grid">グリッドの使用</h3>
 
 <p>Utilize the Bootstrap grid system within a modal by nesting <code class="highlighter-rouge">.container-fluid</code> within the <code class="highlighter-rouge">.modal-body</code>. Then, use the normal grid system classes as you would anywhere else.</p>
 
@@ -798,13 +798,13 @@
   <span class="kd">var</span> <span class="nx">modal</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">)</span>
   <span class="nx">modal</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s1">'.modal-title'</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="s1">'New message to '</span> <span class="o">+</span> <span class="nx">recipient</span><span class="p">)</span>
   <span class="nx">modal</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s1">'.modal-body input'</span><span class="p">).</span><span class="nx">val</span><span class="p">(</span><span class="nx">recipient</span><span class="p">)</span>
-<span class="p">})</span></code></pre></figure><h3 id="remove-animation">Remove animation</h3>
+<span class="p">})</span></code></pre></figure><h3 id="remove-animation">アニメーションの削除</h3>
 
 <p>For modals that simply appear rather than fade in to view, remove the <code class="highlighter-rouge">.fade</code> class from your modal markup.</p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"modal"</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">role=</span><span class="s">"dialog"</span> <span class="na">aria-labelledby=</span><span class="s">"..."</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
   ...
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="dynamic-heights">Dynamic heights</h3>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="dynamic-heights">高さの動的調整</h3>
 
 <p>If the height of a modal changes while it is open, you should call <code class="highlighter-rouge">$('#myModal').modal('handleUpdate')</code> to readjust the modal’s position in case a scrollbar appears.</p>
 
@@ -816,7 +816,7 @@
 
 <p>Embedding YouTube videos in modals requires additional JavaScript not in Bootstrap to automatically stop playback and more. <a href="https://stackoverflow.com/questions/18622508/bootstrap-3-and-youtube-in-modal">See this helpful Stack Overflow post</a> for more information.</p>
 
-<h2 id="optional-sizes">Optional sizes</h2>
+<h2 id="optional-sizes">別のサイズ</h2>
 
 <p>Modals have two optional sizes, available via modifier classes to be placed on a <code class="highlighter-rouge">.modal-dialog</code>. These sizes kick in at certain breakpoints to avoid horizontal scrollbars on narrower viewports.</p>
 
@@ -878,7 +878,7 @@
 
 <p>The modal plugin toggles your hidden content on demand, via data attributes or JavaScript. It also adds <code class="highlighter-rouge">.modal-open</code> to the <code class="highlighter-rouge">&lt;body&gt;</code> to override default scrolling behavior and generates a <code class="highlighter-rouge">.modal-backdrop</code> to provide a click area for dismissing shown modals when clicking outside the modal.</p>
 
-<h3 id="via-data-attributes">Via data attributes</h3>
+<h3 id="via-data-attributes">データ属性経由</h3>
 
 <p>Activate a modal without writing JavaScript. Set <code class="highlighter-rouge">data-toggle="modal"</code> on a controller element, like a button, along with a <code class="highlighter-rouge">data-target="#foo"</code> or <code class="highlighter-rouge">href="#foo"</code> to target a specific modal to toggle.</p>
 
