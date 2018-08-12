@@ -338,15 +338,15 @@
 <li class="toc-entry toc-h2"><a href="#how-it-works">仕組み</a></li>
 <li class="toc-entry toc-h2">
 <a href="#example">サンプル</a><ul>
-<li class="toc-entry toc-h3"><a href="#slides-only">Slides only</a></li>
-<li class="toc-entry toc-h3"><a href="#with-controls">With controls</a></li>
-<li class="toc-entry toc-h3"><a href="#with-indicators">With indicators</a></li>
-<li class="toc-entry toc-h3"><a href="#with-captions">With captions</a></li>
+<li class="toc-entry toc-h3"><a href="#slides-only">スライドのみ</a></li>
+<li class="toc-entry toc-h3"><a href="#with-controls">コントロール付き</a></li>
+<li class="toc-entry toc-h3"><a href="#with-indicators">インジケータ付き</a></li>
+<li class="toc-entry toc-h3"><a href="#with-captions">キャプション付き</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2">
 <a href="#usage">使い方</a><ul>
-<li class="toc-entry toc-h3"><a href="#via-data-attributes">Via data attributes</a></li>
+<li class="toc-entry toc-h3"><a href="#via-data-attributes">データ属性経由</a></li>
 <li class="toc-entry toc-h3"><a href="#via-javascript">JavaScript 経由</a></li>
 <li class="toc-entry toc-h3"><a href="#options">オプション</a></li>
 <li class="toc-entry toc-h3">
@@ -386,7 +386,7 @@
 
 <p>Be sure to set a unique id on the <code class="highlighter-rouge">.carousel</code> for optional controls, especially if you’re using multiple carousels on a single page.</p>
 
-<h3 id="slides-only">Slides only</h3>
+<h3 id="slides-only">スライドのみ</h3>
 
 <p>Here’s a carousel with slides only. Note the presence of the <code class="highlighter-rouge">.d-block</code> and <code class="highlighter-rouge">.img-fluid</code> on carousel images to prevent browser default image alignment.</p>
 
@@ -413,7 +413,7 @@
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></div>
 
-<h3 id="with-controls">With controls</h3>
+<h3 id="with-controls">コントロール付き</h3>
 
 <p>Adding in the previous and next controls:</p>
 
@@ -456,7 +456,7 @@
   <span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></div>
 
-<h3 id="with-indicators">With indicators</h3>
+<h3 id="with-indicators">インジケータ付き</h3>
 
 <p>You can also add the indicators to the carousel, alongside the controls, too.</p>
 
@@ -518,7 +518,7 @@
 <p>The <code class="highlighter-rouge">.active</code> class needs to be added to one of the slides. Otherwise, the carousel will not be visible.</p>
 </div>
 
-<h3 id="with-captions">With captions</h3>
+<h3 id="with-captions">キャプション付き</h3>
 
 <p>Add captions to your slides easily with the <code class="highlighter-rouge">.carousel-caption</code> element within any <code class="highlighter-rouge">.carousel-item</code>. They can be easily hidden on smaller viewports, as shown below, with optional <a href="/docs/4.0/utilities/display/">display utilities</a>. We hide them initially with <code class="highlighter-rouge">.d-none</code> and bring them back on medium-sized devices with <code class="highlighter-rouge">.d-md-block</code>.</p>
 
@@ -571,7 +571,7 @@
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure><h2 id="usage">使い方</h2>
 
-<h3 id="via-data-attributes">Via data attributes</h3>
+<h3 id="via-data-attributes">データ属性経由</h3>
 
 <p>Use data attributes to easily control the position of the carousel. <code class="highlighter-rouge">data-slide</code> accepts the keywords <code class="highlighter-rouge">prev</code> or <code class="highlighter-rouge">next</code>, which alters the slide position relative to its current position. Alternatively, use <code class="highlighter-rouge">data-slide-to</code> to pass a raw slide index to the carousel <code class="highlighter-rouge">data-slide-to="2"</code>, which shifts the slide position to a particular index beginning with <code class="highlighter-rouge">0</code>.</p>
 
