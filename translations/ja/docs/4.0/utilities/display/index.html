@@ -336,10 +336,10 @@
           <div class="d-none d-xl-block col-xl-2 bd-toc">
             <ul class="section-nav">
 <li class="toc-entry toc-h2"><a href="#how-it-works">仕組み</a></li>
-<li class="toc-entry toc-h2"><a href="#notation">Notation</a></li>
+<li class="toc-entry toc-h2"><a href="#notation">記法</a></li>
 <li class="toc-entry toc-h2"><a href="#examples">サンプル</a></li>
-<li class="toc-entry toc-h2"><a href="#hiding-elements">Hiding elements</a></li>
-<li class="toc-entry toc-h2"><a href="#display-in-print">Display in print</a></li>
+<li class="toc-entry toc-h2"><a href="#hiding-elements">要素の非表示</a></li>
+<li class="toc-entry toc-h2"><a href="#display-in-print">印刷時の表示形式</a></li>
 </ul>
 </div>
         
@@ -350,7 +350,7 @@
 
 <p>Change the value of the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"><code class="highlighter-rouge">display</code> property</a> with our responsive display utility classes. We purposely support only a subset of all possible values for <code class="highlighter-rouge">display</code>. Classes can be combined for various effects as you need.</p>
 
-<h2 id="notation">Notation</h2>
+<h2 id="notation">記法</h2>
 
 <p>Display utility classes that apply to all <a href="/docs/4.0/layout/overview/#responsive-breakpoints">breakpoints</a>, from <code class="highlighter-rouge">xs</code> to <code class="highlighter-rouge">xl</code>, have no breakpoint abbreviation in them. This is because those classes are applied from <code class="highlighter-rouge">min-width: 0;</code> and up, and thus are not bound by a media query. The remaining breakpoints, however, do include a breakpoint abbreviation.</p>
 
@@ -394,7 +394,7 @@
 <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"d-block p-2 bg-primary text-white"</span><span class="nt">&gt;</span>d-block<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"d-block p-2 bg-dark text-white"</span><span class="nt">&gt;</span>d-block<span class="nt">&lt;/span&gt;</span></code></pre></div>
 
-<h2 id="hiding-elements">Hiding elements</h2>
+<h2 id="hiding-elements">要素の非表示</h2>
 
 <p>For faster mobile-friendly development, use responsive display classes for showing and hiding elements by device. Avoid creating entirely different versions of the same site, instead hide element responsively for each screen size.</p>
 
@@ -404,8 +404,8 @@
 
 <table>
 <thead><tr>
-<th>Screen Size</th>
-      <th>Class</th>
+<th>画面サイズ</th>
+      <th>クラス</th>
     </tr></thead>
 <tbody>
 <tr>
@@ -465,7 +465,7 @@
 <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"d-lg-none"</span><span class="nt">&gt;</span>hide on screens wider than lg<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"d-none d-lg-block"</span><span class="nt">&gt;</span>hide on screens smaller than lg<span class="nt">&lt;/div&gt;</span></code></pre></div>
 
-<h2 id="display-in-print">Display in print</h2>
+<h2 id="display-in-print">印刷時の表示形式</h2>
 
 <p>Change the <code class="highlighter-rouge">display</code> value of elements when printing with our print display utility classes. Includes support for the same <code class="highlighter-rouge">display</code> values as our responsive <code class="highlighter-rouge">.d-*</code> utilities.</p>
 
