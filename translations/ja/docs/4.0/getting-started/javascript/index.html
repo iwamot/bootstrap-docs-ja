@@ -341,7 +341,7 @@
 <li class="toc-entry toc-h2"><a href="#events">イベント</a></li>
 <li class="toc-entry toc-h2">
 <a href="#programmatic-api">プログラム用API</a><ul>
-<li class="toc-entry toc-h3"><a href="#asynchronous-functions-and-transitions">Asynchronous functions and transitions</a></li>
+<li class="toc-entry toc-h3"><a href="#asynchronous-functions-and-transitions">非同期関数とトランジション</a></li>
 <li class="toc-entry toc-h3"><a href="#default-settings">デフォルト設定</a></li>
 </ul>
 </li>
@@ -391,7 +391,7 @@
 <span class="nx">$</span><span class="p">(</span><span class="s1">'#myModal'</span><span class="p">).</span><span class="nx">modal</span><span class="p">({</span> <span class="na">keyboard</span><span class="p">:</span> <span class="kc">false</span> <span class="p">})</span>   <span class="c1">// initialized with no keyboard</span>
 <span class="nx">$</span><span class="p">(</span><span class="s1">'#myModal'</span><span class="p">).</span><span class="nx">modal</span><span class="p">(</span><span class="s1">'show'</span><span class="p">)</span>                <span class="c1">// initializes and invokes show immediately</span></code></pre></figure><p>Each plugin also exposes its raw constructor on a <code class="highlighter-rouge">Constructor</code> property: <code class="highlighter-rouge">$.fn.popover.Constructor</code>. If you’d like to get a particular plugin instance, retrieve it directly from an element: <code class="highlighter-rouge">$('[rel="popover"]').data('popover')</code>.</p>
 
-<h3 id="asynchronous-functions-and-transitions">Asynchronous functions and transitions</h3>
+<h3 id="asynchronous-functions-and-transitions">非同期関数とトランジション</h3>
 
 <p>All programmatic API methods are <strong>asynchronous</strong> and returns to the caller once the transition is started but <strong>before it ends</strong>.</p>
 
@@ -424,7 +424,7 @@
 <p>Bootstrap’s plugins don’t fall back particularly gracefully when JavaScript is disabled. If you care about the user experience in this case, use <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript"><code class="highlighter-rouge">&lt;noscript&gt;</code></a> to explain the situation (and how to re-enable JavaScript) to your users, and/or add your own custom fallbacks.</p>
 
 <div class="bd-callout bd-callout-warning">
-<h5 id="third-party-libraries">Third-party libraries</h5>
+<h5 id="third-party-libraries">サードパーティのライブラリ</h5>
 
 <p><strong>Bootstrap does not officially support third-party JavaScript libraries</strong> like Prototype or jQuery UI. Despite <code class="highlighter-rouge">.noConflict</code> and namespaced events, there may be compatibility problems that you need to fix on your own.</p>
 </div>
