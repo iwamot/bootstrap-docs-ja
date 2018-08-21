@@ -341,7 +341,7 @@
 </li>
 <li class="toc-entry toc-h2">
 <a href="#beta-3-changes">Beta 3 での変更点</a><ul>
-<li class="toc-entry toc-h3"><a href="#miscellaneous">Miscellaneous</a></li>
+<li class="toc-entry toc-h3"><a href="#miscellaneous">雑多な点</a></li>
 <li class="toc-entry toc-h3"><a href="#forms">フォーム</a></li>
 <li class="toc-entry toc-h3"><a href="#input-groups">入力グループ</a></li>
 </ul>
@@ -349,13 +349,13 @@
 <li class="toc-entry toc-h2">
 <a href="#beta-2-changes">Beta 2 での変更点</a><ul>
 <li class="toc-entry toc-h3"><a href="#breaking">非互換</a></li>
-<li class="toc-entry toc-h3"><a href="#highlights">ハイライト</a></li>
+<li class="toc-entry toc-h3"><a href="#highlights">見どころ</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2">
 <a href="#summary">要約</a><ul>
 <li class="toc-entry toc-h3"><a href="#browser-support">ブラウザのサポート</a></li>
-<li class="toc-entry toc-h3"><a href="#global-changes">Global changes</a></li>
+<li class="toc-entry toc-h3"><a href="#global-changes">全体的な変更点</a></li>
 <li class="toc-entry toc-h3"><a href="#grid-system">グリッドシステム</a></li>
 <li class="toc-entry toc-h3"><a href="#components">コンポーネント</a></li>
 </ul>
@@ -378,7 +378,7 @@
 <li class="toc-entry toc-h3"><a href="#pagination">ページネーション</a></li>
 <li class="toc-entry toc-h3"><a href="#breadcrumbs">パンくずリスト</a></li>
 <li class="toc-entry toc-h3"><a href="#labels-and-badges">ラベルとバッジ</a></li>
-<li class="toc-entry toc-h3"><a href="#panels-thumbnails-and-wells">Panels, thumbnails, and wells</a></li>
+<li class="toc-entry toc-h3"><a href="#panels-thumbnails-and-wells">パネル、サムネイル、はめ込み (well)</a></li>
 <li class="toc-entry toc-h3"><a href="#panels">パネル</a></li>
 <li class="toc-entry toc-h3"><a href="#progress">プログレスバー</a></li>
 <li class="toc-entry toc-h3"><a href="#carousel">カルーセル</a></li>
@@ -418,7 +418,7 @@
 
 <p>While Beta 2 saw the bulk of our breaking changes during the beta phase, but we still have a few that needed to be addressed in the Beta 3 release. These changes apply if you’re updating to Beta 3 from Beta 2 or any older version of Bootstrap.</p>
 
-<h3 id="miscellaneous">Miscellaneous</h3>
+<h3 id="miscellaneous">雑多な点</h3>
 
 <ul>
 <li>Removed the unused <code class="highlighter-rouge">$thumbnail-transition</code> variable. We weren’t transitioning anything, so it was just extra code.</li>
@@ -473,7 +473,7 @@
   <li>Removed the unused <code class="highlighter-rouge">.form-control-label</code> class. If you did make use of this class, it was duplicate of the <code class="highlighter-rouge">.col-form-label</code> class that vertically centered a <code class="highlighter-rouge">&lt;label&gt;</code> with it’s associated input in horizontal form layouts.</li>
   <li>Changed the <code class="highlighter-rouge">color-yiq</code> from a mixin that included the <code class="highlighter-rouge">color</code> property to a function that returns a value, allowing you to use it for any CSS property. For example, instead of <code class="highlighter-rouge">color-yiq(#000)</code>, you’d write <code class="highlighter-rouge">color: color-yiq(#000);</code>.</li>
 </ul>
-<h3 id="highlights">Highlights</h3>
+<h3 id="highlights">見どころ</h3>
 
 <ul>
 <li>Introduced new <code class="highlighter-rouge">pointer-events</code> usage on modals. The outer <code class="highlighter-rouge">.modal-dialog</code> passes through events with <code class="highlighter-rouge">pointer-events: none</code> for custom click handling (making it possible to just listen on the <code class="highlighter-rouge">.modal-backdrop</code> for any clicks), and then counteracts it for the actual <code class="highlighter-rouge">.modal-content</code> with <code class="highlighter-rouge">pointer-events: auto</code>.</li>
@@ -488,18 +488,18 @@
 <li>Dropped IE8, IE9, and iOS 6 support. v4 is now only IE10+ and iOS 7+. For sites needing either of those, use v3.</li>
   <li>Added official support for Android v5.0 Lollipop’s Browser and WebView. Earlier versions of the Android Browser and WebView remain only unofficially supported.</li>
 </ul>
-<h3 id="global-changes">Global changes</h3>
+<h3 id="global-changes">全体的な変更点</h3>
 
 <ul>
 <li>
 <strong>Flexbox is enabled by default.</strong> In general this means a move away from floats and more across our components.</li>
   <li>Switched from <a href="http://lesscss.org/">Less</a> to <a href="https://sass-lang.com/">Sass</a> for our source CSS files.</li>
   <li>Switched from <code class="highlighter-rouge">px</code> to <code class="highlighter-rouge">rem</code> as our primary CSS unit, though pixels are still used for media queries and grid behavior as device viewports are not affected by type size.</li>
-  <li>Global font-size increased from <code class="highlighter-rouge">14px</code> to <code class="highlighter-rouge">16px</code>.</li>
+  <li>全体的なフォントサイズを <code class="highlighter-rouge">14px</code> から <code class="highlighter-rouge">16px</code> に拡大しました。</li>
   <li>Revamped grid tiers to add a fifth option (addressing smaller devices at <code class="highlighter-rouge">576px</code> and below) and removed the <code class="highlighter-rouge">-xs</code> infix from those classes. Example: <code class="highlighter-rouge">.col-6.col-sm-4.col-md-3</code>.</li>
   <li>Replaced the separate optional theme with configurable options via SCSS variables (e.g., <code class="highlighter-rouge">$enable-gradients: true</code>).</li>
   <li>Build system overhauled to use a series of npm scripts instead of Grunt. See <code class="highlighter-rouge">package.json</code> for all scripts, or our project readme for local development needs.</li>
-  <li>Non-responsive usage of Bootstrap is no longer supported.</li>
+  <li>レスポンシブでない Bootstrap の使い方はサポートされなくなりました。</li>
   <li>Dropped the online Customizer in favor of more extensive setup documentation and customized builds.</li>
   <li>Added dozens of new <a href="/docs/4.1/utilities/">utility classes</a> for common CSS property-value pairs and margin/padding spacing shortcuts.</li>
 </ul>
@@ -507,7 +507,7 @@
 
 <ul>
 <li>
-<strong>Moved to flexbox.</strong><ul>
+<strong>Flexbox に移行しました。</strong><ul>
 <li>Added support for flexbox in the grid mixins and predefined classes.</li>
       <li>As part of flexbox, included support for vertical and horizontal alignment classes.</li>
     </ul>
@@ -556,7 +556,7 @@
 </ul>
 <h2 id="by-component">コンポーネント別</h2>
 
-<p>This list highlights key changes by component between v3.x.x and v4.0.0.</p>
+<p>v3.x.x と v4.0.0 の間のコンポーネントごとの主な変更点です。</p>
 
 <h3 id="reboot">Reboot</h3>
 
@@ -565,7 +565,7 @@
 <h3 id="typography">タイポグラフィ</h3>
 
 <ul>
-<li>Moved all <code class="highlighter-rouge">.text-</code> utilities to the <code class="highlighter-rouge">_utilities.scss</code> file.</li>
+<li>すべての <code class="highlighter-rouge">.text-</code> ユーティリティを <code class="highlighter-rouge">_utilities.scss</code> ファイルに移動しました。</li>
   <li>Dropped <code class="highlighter-rouge">.page-header</code> as its styles can be applied via utilities.</li>
   <li>
 <code class="highlighter-rouge">.dl-horizontal</code> has been dropped. Instead, use <code class="highlighter-rouge">.row</code> on <code class="highlighter-rouge">&lt;dl&gt;</code> and use grid column classes (or mixins) on its <code class="highlighter-rouge">&lt;dt&gt;</code> and <code class="highlighter-rouge">&lt;dd&gt;</code> children.</li>
@@ -576,18 +576,20 @@
 <h3 id="images">画像</h3>
 
 <ul>
-<li>Renamed <code class="highlighter-rouge">.img-responsive</code> to <code class="highlighter-rouge">.img-fluid</code>.</li>
-  <li>Renamed <code class="highlighter-rouge">.img-rounded</code> to <code class="highlighter-rouge">.rounded</code>
-</li>
-  <li>Renamed <code class="highlighter-rouge">.img-circle</code> to <code class="highlighter-rouge">.rounded-circle</code>
-</li>
+<li>
+<code class="highlighter-rouge">.img-responsive</code> を <code class="highlighter-rouge">.img-fluid</code> に変更しました。</li>
+  <li>
+<code class="highlighter-rouge">.img-rounded</code> を <code class="highlighter-rouge">.rounded</code> に変更しました。</li>
+  <li>
+<code class="highlighter-rouge">.img-circle</code> を <code class="highlighter-rouge">.rounded-circle</code> に変更しました。</li>
 </ul>
 <h3 id="tables">テーブル</h3>
 
 <ul>
 <li>Nearly all instances of the <code class="highlighter-rouge">&gt;</code> selector have been removed, meaning nested tables will now automatically inherit styles from their parents. This greatly simplifies our selectors and potential customizations.</li>
-  <li>Renamed <code class="highlighter-rouge">.table-condensed</code> to <code class="highlighter-rouge">.table-sm</code> for consistency.</li>
-  <li>Added a new <code class="highlighter-rouge">.table-inverse</code> option.</li>
+  <li>一貫性を保つため <code class="highlighter-rouge">.table-condensed</code> を <code class="highlighter-rouge">.table-sm</code> に変更しました。</li>
+  <li>
+<code class="highlighter-rouge">.table-inverse</code> オプションを追加しました。</li>
   <li>Added table header modifiers: <code class="highlighter-rouge">.thead-default</code> and <code class="highlighter-rouge">.thead-inverse</code>.</li>
   <li>Renamed contextual classes to have a <code class="highlighter-rouge">.table-</code>-prefix. Hence <code class="highlighter-rouge">.active</code>, <code class="highlighter-rouge">.success</code>, <code class="highlighter-rouge">.warning</code>, <code class="highlighter-rouge">.danger</code> and <code class="highlighter-rouge">.info</code> to <code class="highlighter-rouge">.table-active</code>, <code class="highlighter-rouge">.table-success</code>, <code class="highlighter-rouge">.table-warning</code>, <code class="highlighter-rouge">.table-danger</code> and <code class="highlighter-rouge">.table-info</code>.</li>
 </ul>
@@ -595,11 +597,14 @@
 
 <ul>
 <li>Moved element resets to the <code class="highlighter-rouge">_reboot.scss</code> file.</li>
-  <li>Renamed <code class="highlighter-rouge">.control-label</code> to <code class="highlighter-rouge">.col-form-label</code>.</li>
-  <li>Renamed <code class="highlighter-rouge">.input-lg</code> and <code class="highlighter-rouge">.input-sm</code> to <code class="highlighter-rouge">.form-control-lg</code> and <code class="highlighter-rouge">.form-control-sm</code>, respectively.</li>
-  <li>Dropped <code class="highlighter-rouge">.form-group-*</code> classes for simplicity’s sake. Use <code class="highlighter-rouge">.form-control-*</code> classes instead now.</li>
+  <li>
+<code class="highlighter-rouge">.control-label</code> を <code class="highlighter-rouge">.col-form-label</code> に変更しました。</li>
+  <li>
+<code class="highlighter-rouge">.input-lg</code> と <code class="highlighter-rouge">.input-sm</code> を、<code class="highlighter-rouge">.form-control-lg</code> と <code class="highlighter-rouge">.form-control-sm</code> にそれぞれ変更しました。</li>
+  <li>単純化のため <code class="highlighter-rouge">.form-group-*</code> クラスを削除しました。かわりに <code class="highlighter-rouge">.form-control-*</code> クラスを使ってください。</li>
   <li>Dropped <code class="highlighter-rouge">.help-block</code> and replaced it with <code class="highlighter-rouge">.form-text</code> for block-level help text. For inline help text and other flexible options, use utility classes like <code class="highlighter-rouge">.text-muted</code>.</li>
-  <li>Dropped <code class="highlighter-rouge">.radio-inline</code> and <code class="highlighter-rouge">.checkbox-inline</code>.</li>
+  <li>
+<code class="highlighter-rouge">.radio-inline</code> と <code class="highlighter-rouge">.checkbox-inline</code> を削除しました。</li>
   <li>Consolidated <code class="highlighter-rouge">.checkbox</code> and <code class="highlighter-rouge">.radio</code> into <code class="highlighter-rouge">.form-check</code> and the various <code class="highlighter-rouge">.form-check-*</code> classes.</li>
   <li>Horizontal forms overhauled:<ul>
 <li>Dropped the <code class="highlighter-rouge">.form-horizontal</code> class requirement.</li>
@@ -611,12 +616,14 @@
 </li>
   <li>Added custom forms support (for checkboxes, radios, selects, and file inputs).</li>
   <li>Replaced <code class="highlighter-rouge">.has-error</code>, <code class="highlighter-rouge">.has-warning</code>, and <code class="highlighter-rouge">.has-success</code> classes with HTML5 form validation via CSS’s <code class="highlighter-rouge">:invalid</code> and <code class="highlighter-rouge">:valid</code> pseudo-classes.</li>
-  <li>Renamed <code class="highlighter-rouge">.form-control-static</code> to <code class="highlighter-rouge">.form-control-plaintext</code>.</li>
+  <li>
+<code class="highlighter-rouge">.form-control-static</code> を <code class="highlighter-rouge">.form-control-plaintext</code> に変更しました。</li>
 </ul>
 <h3 id="buttons">ボタン</h3>
 
 <ul>
-<li>Renamed <code class="highlighter-rouge">.btn-default</code> to <code class="highlighter-rouge">.btn-secondary</code>.</li>
+<li>
+<code class="highlighter-rouge">.btn-default</code> を <code class="highlighter-rouge">.btn-secondary</code> に変更しました。</li>
   <li>Dropped the <code class="highlighter-rouge">.btn-xs</code> class entirely as <code class="highlighter-rouge">.btn-sm</code> is proportionally much smaller than v3’s.</li>
   <li>The <a href="https://bootstrap-docs-ja.netlify.com//docs/3.3/javascript/#buttons-stateful">stateful button</a> feature of the <code class="highlighter-rouge">button.js</code> jQuery plugin has been dropped. This includes the <code class="highlighter-rouge">$().button(string)</code> and <code class="highlighter-rouge">$().button('reset')</code> methods. We advise using a tiny bit of custom JavaScript instead, which will have the benefit of behaving exactly the way you want it to.<ul>
 <li>Note that the other features of the plugin (button checkboxes, button radios, single-toggle buttons) have been retained in v4.</li>
@@ -627,7 +634,7 @@
 <h3 id="button-group">ボタングループ</h3>
 
 <ul>
-<li>Rewrote component with flexbox.</li>
+<li>Flexbox でコンポーネントを書き直しました。</li>
   <li>Removed <code class="highlighter-rouge">.btn-group-justified</code>. As a replacement you can use <code class="highlighter-rouge">&lt;div class="btn-group d-flex" role="group"&gt;&lt;/div&gt;</code> as a wrapper around elements with <code class="highlighter-rouge">.w-100</code>.</li>
   <li>Dropped the <code class="highlighter-rouge">.btn-group-xs</code> class entirely given removal of <code class="highlighter-rouge">.btn-xs</code>.</li>
   <li>Removed explicit spacing between button groups in button toolbars; use margin utilities now.</li>
@@ -640,8 +647,9 @@
   <li>Simplified dropdown styles to no longer ship with upward or downward facing arrows attached to the dropdown menu.</li>
   <li>Dropdowns can be built with <code class="highlighter-rouge">&lt;div&gt;</code>s or <code class="highlighter-rouge">&lt;ul&gt;</code>s now.</li>
   <li>Rebuilt dropdown styles and markup to provide easy, built-in support for <code class="highlighter-rouge">&lt;a&gt;</code> and <code class="highlighter-rouge">&lt;button&gt;</code> based dropdown items.</li>
-  <li>Renamed <code class="highlighter-rouge">.divider</code> to <code class="highlighter-rouge">.dropdown-divider</code>.</li>
-  <li>Dropdown items now require <code class="highlighter-rouge">.dropdown-item</code>.</li>
+  <li>
+<code class="highlighter-rouge">.divider</code> を <code class="highlighter-rouge">.dropdown-divider</code> に変更しました。</li>
+  <li>ドロップダウンの項目には <code class="highlighter-rouge">.dropdown-item</code> が必要になりました。</li>
   <li>Dropdown toggles no longer require an explicit <code class="highlighter-rouge">&lt;span class="caret"&gt;&lt;/span&gt;</code>; this is now provided automatically via CSS’s <code class="highlighter-rouge">::after</code> on <code class="highlighter-rouge">.dropdown-toggle</code>.</li>
 </ul>
 <h3 id="grid-system-1">グリッドシステム</h3>
@@ -655,21 +663,21 @@
 <h3 id="list-groups">リストグループ</h3>
 
 <ul>
-<li>Rewrote component with flexbox.</li>
+<li>Flexbox でコンポーネントを書き直しました。</li>
   <li>Replaced <code class="highlighter-rouge">a.list-group-item</code> with an explicit class, <code class="highlighter-rouge">.list-group-item-action</code>, for styling link and button versions of list group items.</li>
   <li>Added <code class="highlighter-rouge">.list-group-flush</code> class for use with cards.</li>
 </ul>
 <h3 id="modal">モーダル</h3>
 
 <ul>
-<li>Rewrote component with flexbox.</li>
+<li>Flexbox でコンポーネントを書き直しました。</li>
   <li>Given move to flexbox, alignment of dismiss icons in the header is likely broken as we’re no longer using floats. Floated content comes first, but with flexbox that’s no longer the case. Update your dismiss icons to come after modal titles to fix.</li>
   <li>The <code class="highlighter-rouge">remote</code> option (which could be used to automatically load and inject external content into a modal) and the corresponding <code class="highlighter-rouge">loaded.bs.modal</code> event were removed. We recommend instead using client-side templating or a data binding framework, or calling <a href="https://api.jquery.com/load/">jQuery.load</a> yourself.</li>
 </ul>
 <h3 id="navs">ナビゲーション</h3>
 
 <ul>
-<li>Rewrote component with flexbox.</li>
+<li>Flexbox でコンポーネントを書き直しました。</li>
   <li>Dropped nearly all <code class="highlighter-rouge">&gt;</code> selectors for simpler styling via un-nested classes.</li>
   <li>Instead of HTML-specific selectors like <code class="highlighter-rouge">.nav &gt; li &gt; a</code>, we use separate classes for <code class="highlighter-rouge">.nav</code>s, <code class="highlighter-rouge">.nav-item</code>s, and <code class="highlighter-rouge">.nav-link</code>s. This makes your HTML more flexible while bringing along increased extensibility.</li>
 </ul>
@@ -692,7 +700,7 @@
 <h3 id="pagination">ページネーション</h3>
 
 <ul>
-<li>Rewrote component with flexbox.</li>
+<li>Flexbox でコンポーネントを書き直しました。</li>
   <li>Explicit classes (<code class="highlighter-rouge">.page-item</code>, <code class="highlighter-rouge">.page-link</code>) are now required on the descendants of <code class="highlighter-rouge">.pagination</code>s</li>
   <li>Dropped the <code class="highlighter-rouge">.pager</code> component entirely as it was little more than customized outline buttons.</li>
 </ul>
@@ -710,7 +718,7 @@
   <li>
 <code class="highlighter-rouge">.badge-default</code> has been dropped and <code class="highlighter-rouge">.badge-secondary</code> added to match component modifier classes used elsewhere.</li>
 </ul>
-<h3 id="panels-thumbnails-and-wells">Panels, thumbnails, and wells</h3>
+<h3 id="panels-thumbnails-and-wells">パネル、サムネイル、はめ込み (well)</h3>
 
 <p>Dropped entirely for the new card component.</p>
 
