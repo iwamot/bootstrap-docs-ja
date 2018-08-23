@@ -345,7 +345,7 @@
 <li class="toc-entry toc-h2">
 <a href="#important-globals">Important globals</a><ul>
 <li class="toc-entry toc-h3"><a href="#html5-doctype">HTML5 の DOCTYPE 宣言</a></li>
-<li class="toc-entry toc-h3"><a href="#responsive-meta-tag">Responsive meta tag</a></li>
+<li class="toc-entry toc-h3"><a href="#responsive-meta-tag">レスポンシブ用の meta タグ</a></li>
 <li class="toc-entry toc-h3"><a href="#box-sizing">box-sizing</a></li>
 <li class="toc-entry toc-h3"><a href="#reboot">Reboot</a></li>
 </ul>
@@ -375,7 +375,7 @@
 <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
 <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></figure><p>Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below. If you’re at all unsure about the general page structure, keep reading for an example page template.</p>
 
-<details><summary class="text-primary mb-3">Show components requiring JavaScript</summary><ul>
+<details><summary class="text-primary mb-3">JavaScript が必要なコンポーネントを表示する</summary><ul>
 <li>Alerts for dismissing</li>
   <li>Buttons for toggling states and checkbox/radio functionality</li>
   <li>Carousel for all slide behaviors, controls, and indicators</li>
@@ -423,7 +423,7 @@
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!doctype html&gt;</span>
 <span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
   ...
-<span class="nt">&lt;/html&gt;</span></code></pre></figure><h3 id="responsive-meta-tag">Responsive meta tag</h3>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure><h3 id="responsive-meta-tag">レスポンシブ用の meta タグ</h3>
 
 <p>Bootstrap is developed <em>mobile first</em>, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, <strong>add the responsive viewport meta tag</strong> to your <code class="highlighter-rouge">&lt;head&gt;</code>.</p>
 
@@ -450,9 +450,11 @@
 <p>Stay up to date on the development of Bootstrap and reach out to the community with these helpful resources.</p>
 
 <ul>
-<li>Follow <a href="https://twitter.com/getbootstrap">@getbootstrap on Twitter</a>.</li>
-  <li>Read and subscribe to <a href="https://blog.getbootstrap.com">The Official Bootstrap Blog</a>.</li>
-  <li>Join <a href="https://bootstrap-slack.herokuapp.com">the official Slack room</a>.</li>
+<li>Twitter で <a href="https://twitter.com/getbootstrap">@getbootstrap</a> をフォローする。</li>
+  <li>
+<a href="https://blog.getbootstrap.com">Bootstrap の公式ブログ</a> を読む。</li>
+  <li>
+<a href="https://bootstrap-slack.herokuapp.com">公式の Slack ワークスペース</a> に参加する。</li>
   <li>Chat with fellow Bootstrappers in IRC. On the <code class="highlighter-rouge">irc.freenode.net</code> server, in the <code class="highlighter-rouge">##bootstrap</code> channel.</li>
   <li>Implementation help may be found at Stack Overflow (tagged <a href="https://stackoverflow.com/questions/tagged/bootstrap-4"><code class="highlighter-rouge">bootstrap-4</code></a>).</li>
   <li>Developers should use the keyword <code class="highlighter-rouge">bootstrap</code> on packages which modify or add to the functionality of Bootstrap when distributing through <a href="https://www.npmjs.com/browse/keyword/bootstrap">npm</a> or similar delivery mechanisms for maximum discoverability.</li>
