@@ -345,10 +345,10 @@
 <p>We’ll dive into each of these more throughout, but at a high level, here’s what guides our approach.</p>
 
 <ul>
-<li>Components should be responsive and mobile-first</li>
+<li>コンポーネントはレスポンシブでモバイルファーストでなければなりません</li>
   <li>Components should be built with a base class and extended via modifier classes</li>
   <li>Component states should obey a common z-index scale</li>
-  <li>Whenever possible, prefer a HTML and CSS implementation over JavaScript</li>
+  <li>できるだけ、JavaScript より HTML と CSS での実装を選びます</li>
   <li>Whenever possible, use utilities over custom styles</li>
   <li>Whenever possible, avoid enforcing strict HTML requirements (children selectors)</li>
 </ul>
@@ -381,7 +381,7 @@
 <code class="highlighter-rouge">0</code> is default (initial), <code class="highlighter-rouge">1</code> is <code class="highlighter-rouge">:hover</code>, <code class="highlighter-rouge">2</code> is <code class="highlighter-rouge">:active</code>/<code class="highlighter-rouge">.active</code>, and , <code class="highlighter-rouge">3</code> is <code class="highlighter-rouge">:focus</code>.</li>
   <li>This approach matches our expectations of highest user priority. If an element is focused, it’s in view and at the user’s attention. Active elements are second highest because they indicate state. Hover is third highest because it indicates user intent, but nearly <em>anything</em> can be hovered.</li>
 </ul>
-<h3 id="overlay-components">Overlay components</h3>
+<h3 id="overlay-components">オーバーレイコンポーネント</h3>
 
 <p>Bootstrap includes several components that function as an overlay of some kind. This includes, in order of highest <code class="highlighter-rouge">z-index</code>, dropdowns, fixed and sticky navbars, modals, tooltips, and popovers. These components have their own <code class="highlighter-rouge">z-index</code> scale that begins at <code class="highlighter-rouge">1000</code>. This starting number is random and serves as a small buffer between our styles and your project’s custom styles.</p>
 
