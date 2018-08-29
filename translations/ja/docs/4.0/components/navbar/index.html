@@ -117,7 +117,7 @@
               JavaScript
             </a></li>
 <li><a href="/docs/4.0/getting-started/theming/">
-              テーマ
+              テーマ設定
             </a></li>
 <li><a href="/docs/4.0/getting-started/build-tools/">
               ビルドツール
@@ -337,21 +337,21 @@
             <ul class="section-nav">
 <li class="toc-entry toc-h2"><a href="#how-it-works">仕組み</a></li>
 <li class="toc-entry toc-h2">
-<a href="#supported-content">Supported content</a><ul>
-<li class="toc-entry toc-h3"><a href="#brand">Brand</a></li>
-<li class="toc-entry toc-h3"><a href="#nav">Nav</a></li>
+<a href="#supported-content">サポートされているコンテンツ</a><ul>
+<li class="toc-entry toc-h3"><a href="#brand">ブランド</a></li>
+<li class="toc-entry toc-h3"><a href="#nav">ナビゲーション</a></li>
 <li class="toc-entry toc-h3"><a href="#forms">フォーム</a></li>
-<li class="toc-entry toc-h3"><a href="#text">Text</a></li>
+<li class="toc-entry toc-h3"><a href="#text">テキスト</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h2"><a href="#color-schemes">Color schemes</a></li>
+<li class="toc-entry toc-h2"><a href="#color-schemes">カラースキーム</a></li>
 <li class="toc-entry toc-h2"><a href="#containers">コンテナ</a></li>
-<li class="toc-entry toc-h2"><a href="#placement">Placement</a></li>
+<li class="toc-entry toc-h2"><a href="#placement">配置</a></li>
 <li class="toc-entry toc-h2">
-<a href="#responsive-behaviors">Responsive behaviors</a><ul>
+<a href="#responsive-behaviors">レスポンシブな挙動</a><ul>
 <li class="toc-entry toc-h3"><a href="#toggler">Toggler</a></li>
 <li class="toc-entry toc-h3">
-<a href="#external-content">External content</a><ul>
+<a href="#external-content">外側のコンテンツ</a><ul>
 <li class="toc-entry toc-h4"><a href="#collapsed-content">Collapsed content</a></li>
 </ul>
 </li>
@@ -377,7 +377,7 @@
 </ul>
 <p>Read on for an example and list of supported sub-components.</p>
 
-<h2 id="supported-content">Supported content</h2>
+<h2 id="supported-content">サポートされているコンテンツ</h2>
 
 <p>Navbars come with built-in support for a handful of sub-components. Choose from the following as needed:</p>
 
@@ -460,7 +460,7 @@
 
 <p>This example uses <a href="/docs/4.0/utilities/colors/">color</a> (<code class="highlighter-rouge">bg-light</code>) and <a href="/docs/4.0/utilities/spacing/">spacing</a> (<code class="highlighter-rouge">my-2</code>, <code class="highlighter-rouge">my-lg-0</code>, <code class="highlighter-rouge">mr-sm-0</code>, <code class="highlighter-rouge">my-sm-0</code>) utility classes.</p>
 
-<h3 id="brand">Brand</h3>
+<h3 id="brand">ブランド</h3>
 
 <p>The <code class="highlighter-rouge">.navbar-brand</code> can be applied to most elements, but an anchor works best as some elements might require utility classes or custom styles.</p>
 
@@ -468,12 +468,12 @@
 <!-- As a link -->
 <nav class="navbar navbar-light bg-light"><a class="navbar-brand" href="#">Navbar</a></nav><!-- As a heading --><nav class="navbar navbar-light bg-light"><span class="navbar-brand mb-0 h1">Navbar</span></nav>
 </div>
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- As a link --&gt;</span>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- リンクとして --&gt;</span>
 <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-light bg-light"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Navbar<span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/nav&gt;</span>
 
-<span class="c">&lt;!-- As a heading --&gt;</span>
+<span class="c">&lt;!-- 見出しとして --&gt;</span>
 <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-light bg-light"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"navbar-brand mb-0 h1"</span><span class="nt">&gt;</span>Navbar<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre></div>
@@ -507,7 +507,7 @@
   <span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre></div>
 
-<h3 id="nav">Nav</h3>
+<h3 id="nav">ナビゲーション</h3>
 
 <p>Navbar navigation links build on our <code class="highlighter-rouge">.nav</code> options with their own modifier class and require the use of <a href="#toggler">toggler classes</a> for proper responsive styling. <strong>Navigation in navbars will also grow to occupy as much horizontal space as possible</strong> to keep your navbar contents securely aligned.</p>
 
@@ -668,7 +668,7 @@
   <span class="nt">&lt;/form&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre></div>
 
-<p>Input groups work, too:</p>
+<p>入力グループも動きます：</p>
 
 <div class="bd-example">
 <nav class="navbar navbar-light bg-light"><form class="form-inline">
@@ -762,7 +762,7 @@
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre></div>
 
-<h2 id="color-schemes">Color schemes</h2>
+<h2 id="color-schemes">カラースキーム</h2>
 
 <p>Theming the navbar has never been easier thanks to the combination of theming classes and <code class="highlighter-rouge">background-color</code> utilities. Choose from <code class="highlighter-rouge">.navbar-light</code> for use with light background colors, or <code class="highlighter-rouge">.navbar-dark</code> for dark background colors. Then, customize with <code class="highlighter-rouge">.bg-*</code> utilities.</p>
 
@@ -813,15 +813,15 @@
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-dark bg-dark"</span><span class="nt">&gt;</span>
-  <span class="c">&lt;!-- Navbar content --&gt;</span>
+  <span class="c">&lt;!-- ナビゲーションバーのコンテンツ --&gt;</span>
 <span class="nt">&lt;/nav&gt;</span>
 
 <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-dark bg-primary"</span><span class="nt">&gt;</span>
-  <span class="c">&lt;!-- Navbar content --&gt;</span>
+  <span class="c">&lt;!-- ナビゲーションバーのコンテンツ --&gt;</span>
 <span class="nt">&lt;/nav&gt;</span>
 
 <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-light"</span> <span class="na">style=</span><span class="s">"background-color: #e3f2fd;"</span><span class="nt">&gt;</span>
-  <span class="c">&lt;!-- Navbar content --&gt;</span>
+  <span class="c">&lt;!-- ナビゲーションバーのコンテンツ --&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre></figure><h2 id="containers">コンテナ</h2>
 
 <p>Although it’s not required, you can wrap a navbar in a <code class="highlighter-rouge">.container</code> to center it on a page or add one within to only center the contents of a <a href="#placement">fixed or static top navbar</a>.</p>
@@ -849,7 +849,7 @@
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre></div>
 
-<h2 id="placement">Placement</h2>
+<h2 id="placement">配置</h2>
 
 <p>Use our <a href="/docs/4.0/utilities/position/">position utilities</a> to place navbars in non-static positions. Choose from fixed to the top, fixed to the bottom, or stickied to the top (scrolls with the page until it reaches the top, then stays there). Fixed navbars use <code class="highlighter-rouge">position: fixed</code>, meaning they’re pulled from the normal flow of the DOM and may require custom CSS (e.g., <code class="highlighter-rouge">padding-top</code> on the <code class="highlighter-rouge">&lt;body&gt;</code>) to prevent overlap with other elements.</p>
 
@@ -883,7 +883,7 @@
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Sticky top<span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre></div>
 
-<h2 id="responsive-behaviors">Responsive behaviors</h2>
+<h2 id="responsive-behaviors">レスポンシブな挙動</h2>
 
 <p>Navbars can utilize <code class="highlighter-rouge">.navbar-toggler</code>, <code class="highlighter-rouge">.navbar-collapse</code>, and <code class="highlighter-rouge">.navbar-expand{-sm|-md|-lg|-xl}</code> classes to change when their content collapses behind a button. In combination with other utilities, you can easily choose when to show or hide particular elements.</p>
 
@@ -1020,7 +1020,7 @@
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre></div>
 
-<h3 id="external-content">External content</h3>
+<h3 id="external-content">外側のコンテンツ</h3>
 
 <p>Sometimes you want to use the collapse plugin to trigger hidden content elsewhere on the page. Because our plugin works on the <code class="highlighter-rouge">id</code> and <code class="highlighter-rouge">data-target</code> matching, that’s easily done!</p>
 

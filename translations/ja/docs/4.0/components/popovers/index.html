@@ -117,7 +117,7 @@
               JavaScript
             </a></li>
 <li><a href="/docs/4.0/getting-started/theming/">
-              テーマ
+              テーマ設定
             </a></li>
 <li><a href="/docs/4.0/getting-started/build-tools/">
               ビルドツール
@@ -336,7 +336,7 @@
           <div class="d-none d-xl-block col-xl-2 bd-toc">
             <ul class="section-nav">
 <li class="toc-entry toc-h2"><a href="#overview">概要</a></li>
-<li class="toc-entry toc-h2"><a href="#example-enable-popovers-everywhere">Example: Enable popovers everywhere</a></li>
+<li class="toc-entry toc-h2"><a href="#example-enable-popovers-everywhere">サンプル：ポップオーバーをどこでも有効にする</a></li>
 <li class="toc-entry toc-h2"><a href="#example-using-the-container-option">Example: Using the container option</a></li>
 <li class="toc-entry toc-h2">
 <a href="#example">サンプル</a><ul>
@@ -381,11 +381,11 @@
           <p class="bd-lead">Documentation and examples for adding Bootstrap popovers, like those found in iOS, to any element on your site.</p>
           <script async src="https://cdn.carbonads.com/carbon.js?zoneid=1673&amp;serve=C6AILKT&amp;placement=getbootstrapcom" id="_carbonads_js"></script><h2 id="overview">概要</h2>
 
-<p>Things to know when using the popover plugin:</p>
+<p>ポップオーバープラグインを使うときに知っておくべきこと：</p>
 
 <ul>
 <li>Popovers rely on the 3rd party library <a href="https://popper.js.org/">Popper.js</a> for positioning. You must include <a href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">popper.min.js</a> before bootstrap.js or use <code class="highlighter-rouge">bootstrap.bundle.min.js</code> / <code class="highlighter-rouge">bootstrap.bundle.js</code> which contains Popper.js in order for popovers to work!</li>
-  <li>Popovers require the <a href="/docs/4.0/components/tooltips/">tooltip plugin</a> as a dependency.</li>
+  <li>ポップオーバーには <a href="/docs/4.0/components/tooltips/">ツールチッププラグイン</a> が必要です。</li>
   <li>If you’re building our JavaScript from source, it <a href="/docs/4.0/getting-started/javascript/#util">requires <code class="highlighter-rouge">util.js</code></a>.</li>
   <li>Popovers are opt-in for performance reasons, so <strong>you must initialize them yourself</strong>.</li>
   <li>Zero-length <code class="highlighter-rouge">title</code> and <code class="highlighter-rouge">content</code> values will never show a popover.</li>
@@ -397,7 +397,7 @@
 </ul>
 <p>Keep reading to see how popovers work with some examples.</p>
 
-<h2 id="example-enable-popovers-everywhere">Example: Enable popovers everywhere</h2>
+<h2 id="example-enable-popovers-everywhere">サンプル：ポップオーバーをどこでも有効にする</h2>
 
 <p>One way to initialize all popovers on a page would be to select them by their <code class="highlighter-rouge">data-toggle</code> attribute:</p>
 
@@ -482,7 +482,7 @@ sagittis lacus vel augue laoreet rutrum faucibus."</span><span class="nt">&gt;</
 
 <h2 id="usage">使い方</h2>
 
-<p>Enable popovers via JavaScript:</p>
+<p>JavaScript 経由でポップオーバーを有効にします：</p>
 
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#example'</span><span class="p">).</span><span class="nx">popover</span><span class="p">(</span><span class="nx">options</span><span class="p">)</span></code></pre></figure><h3 id="options">オプション</h3>
 

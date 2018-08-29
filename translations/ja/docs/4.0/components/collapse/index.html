@@ -117,7 +117,7 @@
               JavaScript
             </a></li>
 <li><a href="/docs/4.0/getting-started/theming/">
-              テーマ
+              テーマ設定
             </a></li>
 <li><a href="/docs/4.0/getting-started/build-tools/">
               ビルドツール
@@ -336,7 +336,7 @@
           <div class="d-none d-xl-block col-xl-2 bd-toc">
             <ul class="section-nav">
 <li class="toc-entry toc-h2"><a href="#example">サンプル</a></li>
-<li class="toc-entry toc-h2"><a href="#multiple-targets">Multiple targets</a></li>
+<li class="toc-entry toc-h2"><a href="#multiple-targets">複数のターゲット</a></li>
 <li class="toc-entry toc-h2"><a href="#accordion-example">アコーディオンのサンプル</a></li>
 <li class="toc-entry toc-h2"><a href="#accessibility">アクセシビリティ</a></li>
 <li class="toc-entry toc-h2">
@@ -371,7 +371,7 @@
 <li>
 <code class="highlighter-rouge">.collapse</code> はコンテンツを非表示にします</li>
   <li>
-<code class="highlighter-rouge">.collapsing</code> is applied during transitions</li>
+<code class="highlighter-rouge">.collapsing</code> はトランジション中に適用されます</li>
   <li>
 <code class="highlighter-rouge">.collapse.show</code> はコンテンツを表示します</li>
 </ul>
@@ -402,7 +402,7 @@
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></div>
 
-<h2 id="multiple-targets">Multiple targets</h2>
+<h2 id="multiple-targets">複数のターゲット</h2>
 
 <p>A <code class="highlighter-rouge">&lt;button&gt;</code> or <code class="highlighter-rouge">&lt;a&gt;</code> can show and hide multiple elements by referencing them with a JQuery selector in its <code class="highlighter-rouge">href</code> or <code class="highlighter-rouge">data-target</code> attribute.
 Multiple <code class="highlighter-rouge">&lt;button&gt;</code> or <code class="highlighter-rouge">&lt;a&gt;</code> can show and hide an element if they each reference it with their <code class="highlighter-rouge">href</code> or <code class="highlighter-rouge">data-target</code> attribute</p>
@@ -545,13 +545,13 @@ Multiple <code class="highlighter-rouge">&lt;button&gt;</code> or <code class="h
 
 <ul>
 <li>
-<code class="highlighter-rouge">.collapse</code> hides the content</li>
+<code class="highlighter-rouge">.collapse</code> はコンテンツを非表示にします</li>
   <li>
-<code class="highlighter-rouge">.collapse.show</code> shows the content</li>
+<code class="highlighter-rouge">.collapse.show</code> はコンテンツを表示します</li>
   <li>
-<code class="highlighter-rouge">.collapsing</code> is added when the transition starts, and removed when it finishes</li>
+<code class="highlighter-rouge">.collapsing</code> はトランジション開始時に追加され、終了時に削除されます。</li>
 </ul>
-<p>These classes can be found in <code class="highlighter-rouge">_transitions.scss</code>.</p>
+<p>これらのクラスは <code class="highlighter-rouge">_transitions.scss</code> にあります。</p>
 
 <h3 id="via-data-attributes">データ属性経由</h3>
 
@@ -561,7 +561,7 @@ Multiple <code class="highlighter-rouge">&lt;button&gt;</code> or <code class="h
 
 <h3 id="via-javascript">JavaScript 経由</h3>
 
-<p>Enable manually with:</p>
+<p>手動で有効にします：</p>
 
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'.collapse'</span><span class="p">).</span><span class="nx">collapse</span><span class="p">()</span></code></pre></figure><h3 id="options">オプション</h3>
 
