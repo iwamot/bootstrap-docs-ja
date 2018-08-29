@@ -113,7 +113,7 @@
               JavaScript
             </a></li>
 <li><a href="/docs/4.1/getting-started/theming/">
-              テーマ
+              テーマ設定
             </a></li>
 <li><a href="/docs/4.1/getting-started/build-tools/">
               ビルドツール
@@ -340,7 +340,7 @@
 <li class="toc-entry toc-h3"><a href="#horizontal-alignment">横位置の整列</a></li>
 <li class="toc-entry toc-h3"><a href="#vertical">Vertical</a></li>
 <li class="toc-entry toc-h3"><a href="#tabs">タブ</a></li>
-<li class="toc-entry toc-h3"><a href="#pills">Pills</a></li>
+<li class="toc-entry toc-h3"><a href="#pills">ピル</a></li>
 <li class="toc-entry toc-h3"><a href="#fill-and-justify">Fill and justify</a></li>
 </ul>
 </li>
@@ -349,7 +349,7 @@
 <li class="toc-entry toc-h2">
 <a href="#using-dropdowns">ドロップダウンの使用</a><ul>
 <li class="toc-entry toc-h3"><a href="#tabs-with-dropdowns">ドロップダウン付きのタブ</a></li>
-<li class="toc-entry toc-h3"><a href="#pills-with-dropdowns">Pills with dropdowns</a></li>
+<li class="toc-entry toc-h3"><a href="#pills-with-dropdowns">ドロップダウン付きのピル</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2">
@@ -535,7 +535,7 @@
   <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link disabled"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Disabled<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span></code></pre></figure><h3 id="pills">Pills</h3>
+<span class="nt">&lt;/ul&gt;</span></code></pre></figure><h3 id="pills">ピル</h3>
 
 <p>Take that same HTML, but use <code class="highlighter-rouge">.nav-pills</code> instead:</p>
 
@@ -686,7 +686,7 @@
   <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link disabled"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Disabled<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span></code></pre></figure><h3 id="pills-with-dropdowns">Pills with dropdowns</h3>
+<span class="nt">&lt;/ul&gt;</span></code></pre></figure><h3 id="pills-with-dropdowns">ドロップダウン付きのピル</h3>
 
 <div class="bd-example">
 <ul class="nav nav-pills">
@@ -799,7 +799,7 @@
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-pane fade show active"</span> <span class="na">id=</span><span class="s">"nav-home"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"nav-home-tab"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-pane fade"</span> <span class="na">id=</span><span class="s">"nav-profile"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"nav-profile-tab"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-pane fade"</span> <span class="na">id=</span><span class="s">"nav-contact"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"nav-contact-tab"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><p>The tabs plugin also works with pills.</p>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><p>タブプラグインはピルでも動きます。</p>
 
 <div class="bd-example bd-example-tabs">
   <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -835,7 +835,7 @@
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-pane fade show active"</span> <span class="na">id=</span><span class="s">"pills-home"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"pills-home-tab"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-pane fade"</span> <span class="na">id=</span><span class="s">"pills-profile"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"pills-profile-tab"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-pane fade"</span> <span class="na">id=</span><span class="s">"pills-contact"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"pills-contact-tab"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><p>And with vertical pills.</p>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><p>垂直のピルでも。</p>
 
 <div class="bd-example bd-example-tabs">
   <div class="row">

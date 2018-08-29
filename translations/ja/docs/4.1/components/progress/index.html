@@ -113,7 +113,7 @@
               JavaScript
             </a></li>
 <li><a href="/docs/4.1/getting-started/theming/">
-              テーマ
+              テーマ設定
             </a></li>
 <li><a href="/docs/4.1/getting-started/build-tools/">
               ビルドツール
@@ -352,8 +352,8 @@
 <p>Progress components are built with two HTML elements, some CSS to set the width, and a few attributes. We don’t use <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress">the HTML5 <code class="highlighter-rouge">&lt;progress&gt;</code> element</a>, ensuring you can stack progress bars, animate them, and place text labels over them.</p>
 
 <ul>
-<li>We use the <code class="highlighter-rouge">.progress</code> as a wrapper to indicate the max value of the progress bar.</li>
-  <li>We use the inner <code class="highlighter-rouge">.progress-bar</code> to indicate the progress so far.</li>
+<li>プログレスバーの最大値を示すラッパーとして <code class="highlighter-rouge">.progress</code> を使います。</li>
+  <li>進行度を示すために内側で <code class="highlighter-rouge">.progress-bar</code> を使います。</li>
   <li>The <code class="highlighter-rouge">.progress-bar</code> requires an inline style, utility class, or custom CSS to set their width.</li>
   <li>The <code class="highlighter-rouge">.progress-bar</code> also requires some <code class="highlighter-rouge">role</code> and <code class="highlighter-rouge">aria</code> attributes to make it accessible.</li>
 </ul>
@@ -401,7 +401,7 @@
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress-bar w-75"</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">aria-valuenow=</span><span class="s">"75"</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span><span class="nt">&gt;&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure><h2 id="labels">ラベル</h2>
 
-<p>Add labels to your progress bars by placing text within the <code class="highlighter-rouge">.progress-bar</code>.</p>
+<p><code class="highlighter-rouge">.progress-bar</code> 内にテキストを配置して、プログレスバーにラベルを指定します。</p>
 
 <div class="bd-example">
 <div class="progress">
@@ -429,7 +429,7 @@
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress-bar"</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">style=</span><span class="s">"width: 25%;"</span> <span class="na">aria-valuenow=</span><span class="s">"25"</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span><span class="nt">&gt;&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure><h2 id="backgrounds">背景</h2>
 
-<p>Use background utility classes to change the appearance of individual progress bars.</p>
+<p>背景ユーティリティクラスを使って、各プログレスバーの見た目を変えます。</p>
 
 <div class="bd-example">
 <div class="progress">

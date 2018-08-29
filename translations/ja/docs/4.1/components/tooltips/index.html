@@ -113,7 +113,7 @@
               JavaScript
             </a></li>
 <li><a href="/docs/4.1/getting-started/theming/">
-              テーマ
+              テーマ設定
             </a></li>
 <li><a href="/docs/4.1/getting-started/build-tools/">
               ビルドツール
@@ -335,11 +335,11 @@
           <div class="d-none d-xl-block col-xl-2 bd-toc">
             <ul class="section-nav">
 <li class="toc-entry toc-h2"><a href="#overview">概要</a></li>
-<li class="toc-entry toc-h2"><a href="#example-enable-tooltips-everywhere">Example: Enable tooltips everywhere</a></li>
+<li class="toc-entry toc-h2"><a href="#example-enable-tooltips-everywhere">サンプル：ツールチップをどこでも有効にする</a></li>
 <li class="toc-entry toc-h2"><a href="#examples">サンプル</a></li>
 <li class="toc-entry toc-h2">
 <a href="#usage">使い方</a><ul>
-<li class="toc-entry toc-h3"><a href="#markup">Markup</a></li>
+<li class="toc-entry toc-h3"><a href="#markup">マークアップ</a></li>
 <li class="toc-entry toc-h3"><a href="#disabled-elements">無効な要素</a></li>
 <li class="toc-entry toc-h3">
 <a href="#options">オプション</a><ul>
@@ -386,7 +386,7 @@
 </ul>
 <p>Got all that? Great, let’s see how they work with some examples.</p>
 
-<h2 id="example-enable-tooltips-everywhere">Example: Enable tooltips everywhere</h2>
+<h2 id="example-enable-tooltips-everywhere">サンプル：ツールチップをどこでも有効にする</h2>
 
 <p>One way to initialize all tooltips on a page would be to select them by their <code class="highlighter-rouge">data-toggle</code> attribute:</p>
 
@@ -442,7 +442,7 @@
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#example'</span><span class="p">).</span><span class="nx">tooltip</span><span class="p">({</span> <span class="na">boundary</span><span class="p">:</span> <span class="s1">'window'</span> <span class="p">})</span></code></pre></figure>
 </div>
 
-<h3 id="markup">Markup</h3>
+<h3 id="markup">マークアップ</h3>
 
 <p>The required markup for a tooltip is only a <code class="highlighter-rouge">data</code> attribute and <code class="highlighter-rouge">title</code> on the HTML element you wish to have a tooltip. The generated markup of a tooltip is rather simple, though it does require a position (by default, set to <code class="highlighter-rouge">top</code> by the plugin).</p>
 
@@ -518,7 +518,7 @@
       <td>boolean</td>
       <td>false</td>
       <td>
-        <p>Allow HTML in the tooltip.</p>
+        <p>ツールチップ内のHTMLを許可します。</p>
         <p>If true, HTML tags in the tooltip's <code>title</code> will be rendered in the tooltip. If false, jQuery's <code>text</code> method will be used to insert content into the DOM.</p>
         <p>Use text if you're worried about XSS attacks.</p>
       </td>
