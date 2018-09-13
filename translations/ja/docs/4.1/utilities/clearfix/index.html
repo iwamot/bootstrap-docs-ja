@@ -338,10 +338,10 @@
         
 
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main"><h1 class="bd-title" id="content">フロート解除</h1>
-          <p class="bd-lead">Quickly and easily clear floated content within a container by adding a clearfix utility.</p>
-          <script async src="https://cdn.carbonads.com/carbon.js?serve=CKYIKKJL&amp;placement=getbootstrapcom" id="_carbonads_js"></script><p>Easily clear <code class="highlighter-rouge">float</code>s by adding <code class="highlighter-rouge">.clearfix</code> <strong>to the parent element</strong>. Can also be used as a mixin.</p>
+          <p class="bd-lead">フロート解除ユーティリティを指定して、コンテナ内のフローティング要素をすばやく簡単に解除できます。</p>
+          <script async src="https://cdn.carbonads.com/carbon.js?serve=CKYIKKJL&amp;placement=getbootstrapcom" id="_carbonads_js"></script><p><code class="highlighter-rouge">.clearfix</code> を<strong>親要素に</strong>指定することで、<code class="highlighter-rouge">float</code> を簡単に解除できます。ミックスインとしても利用可能です。</p>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"clearfix"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span></code></pre></figure><figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// Mixin itself</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"clearfix"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span></code></pre></figure><figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// ミックスインそのもの</span>
 <span class="k">@mixin</span> <span class="nf">clearfix</span><span class="p">()</span> <span class="p">{</span>
   <span class="err">&amp;</span><span class="p">:</span><span class="o">:</span><span class="n">after</span> <span class="p">{</span>
     <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
@@ -350,10 +350,10 @@
   <span class="p">}</span>
 <span class="p">}</span>
 
-<span class="c1">// Usage as a mixin</span>
+<span class="c1">// ミックスインとして使用</span>
 <span class="nc">.element</span> <span class="p">{</span>
   <span class="k">@include</span> <span class="nd">clearfix</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure><p>The following example shows how the clearfix can be used. Without the clearfix the wrapping div would not span around the buttons which would cause a broken layout.</p>
+<span class="p">}</span></code></pre></figure><p>次のサンプルは、clearfix の使い方を示したものです。 clearfix を指定しない場合、外側の div がボタンを囲まなくなり、レイアウトが崩れてしまいます。</p>
 
 <div class="bd-example">
 <div class="bg-info clearfix">
