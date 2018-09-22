@@ -334,7 +334,7 @@
         
 
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main"><h1 class="bd-title" id="content">パンくずリスト</h1>
-          <p class="bd-lead">Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.</p>
+          <p class="bd-lead">CSS で区切りが自動追加されるナビゲーション階層に、現ページの位置を示します。</p>
           <script async src="https://cdn.carbonads.com/carbon.js?serve=CKYIKKJL&amp;placement=getbootstrapcom" id="_carbonads_js"></script><h2 id="example">サンプル</h2>
 
 <div class="bd-example">
@@ -370,7 +370,7 @@
   <span class="nt">&lt;/ol&gt;</span>
 <span class="nt">&lt;/nav&gt;</span></code></pre></figure><h2 id="changing-the-separator">区切りの変更</h2>
 
-<p>Separators are automatically added in CSS through <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::before"><code class="highlighter-rouge">::before</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/content"><code class="highlighter-rouge">content</code></a>. They can be changed by changing <code class="highlighter-rouge">$breadcrumb-divider</code>. The <a href="https://sass-lang.com/documentation/Sass/Script/Functions.html#quote-instance_method">quote</a> function is needed to generate the quotes around a string, so if you want <code class="highlighter-rouge">&gt;</code> as seperator, you can use this:</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::before"><code class="highlighter-rouge">::before</code></a> と <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/content"><code class="highlighter-rouge">content</code></a> を介して、区切りが CSS に自動追加されます。区切りは <code class="highlighter-rouge">$breadcrumb-divider</code> で変更できます。文字列を引用符で囲むのに、<a href="https://sass-lang.com/documentation/Sass/Script/Functions.html#quote-instance_method">quote</a> 関数が必要です。<code class="highlighter-rouge">&gt;</code> を区切りとするなら、こうします：</p>
 
 <div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$breadcrumb-divider</span><span class="p">:</span> <span class="nf">quote</span><span class="p">(</span><span class="s2">"&gt;"</span><span class="p">);</span>
 </code></pre></div></div>
@@ -387,7 +387,7 @@
 
 <h2 id="accessibility">アクセシビリティ</h2>
 
-<p>Since breadcrumbs provide a navigation, it’s a good idea to add a meaningful label such as <code class="highlighter-rouge">aria-label="breadcrumb"</code> to describe the type of navigation provided in the <code class="highlighter-rouge">&lt;nav&gt;</code> element, as well as applying an <code class="highlighter-rouge">aria-current="page"</code> to the last item of the set to indicate that it represents the current page.</p>
+<p>パンくずリストはナビゲーションを提供するので、<code class="highlighter-rouge">&lt;nav&gt;</code> 要素で提供されるナビゲーションの種類を表すため <code class="highlighter-rouge">aria-label="breadcrumb"</code> のような意味のあるラベルを追加することと、現在のページであることを示すため最後の項目に <code class="highlighter-rouge">aria-current="page"</code> を適用することをおすすめします。</p>
 
 <p>詳細は <a href="https://www.w3.org/TR/wai-aria-practices/#breadcrumb">WAI-ARIA Authoring Practices for the breadcrumb pattern</a> をご参照ください。</p>
 
