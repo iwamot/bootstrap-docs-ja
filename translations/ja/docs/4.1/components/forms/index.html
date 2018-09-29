@@ -354,24 +354,24 @@
 <a href="#layout">レイアウト</a><ul>
 <li class="toc-entry toc-h3"><a href="#form-groups">フォームグループ</a></li>
 <li class="toc-entry toc-h3">
-<a href="#form-grid">Form grid</a><ul>
+<a href="#form-grid">フォームグリッド</a><ul>
 <li class="toc-entry toc-h4"><a href="#form-row">Form row</a></li>
 <li class="toc-entry toc-h4"><a href="#horizontal-form">Horizontal form</a></li>
 <li class="toc-entry toc-h4"><a href="#column-sizing">Column sizing</a></li>
 <li class="toc-entry toc-h4"><a href="#auto-sizing">Auto-sizing</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h3"><a href="#inline-forms">Inline forms</a></li>
+<li class="toc-entry toc-h3"><a href="#inline-forms">インラインフォーム</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h2"><a href="#help-text">Help text</a></li>
+<li class="toc-entry toc-h2"><a href="#help-text">ヘルプテキスト</a></li>
 <li class="toc-entry toc-h2">
-<a href="#disabled-forms">Disabled forms</a><ul>
+<a href="#disabled-forms">無効なフォーム</a><ul>
 <li class="toc-entry toc-h4"><a href="#cross-browser-compatibility">Cross-browser compatibility</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2">
-<a href="#validation">Validation</a><ul>
+<a href="#validation">バリデーション</a><ul>
 <li class="toc-entry toc-h3"><a href="#how-it-works">仕組み</a></li>
 <li class="toc-entry toc-h3"><a href="#custom-styles">Custom styles</a></li>
 <li class="toc-entry toc-h3"><a href="#browser-defaults">Browser defaults</a></li>
@@ -387,11 +387,11 @@
 <li class="toc-entry toc-h4"><a href="#checkboxes">チェックボックス</a></li>
 <li class="toc-entry toc-h4"><a href="#radios">ラジオボタン</a></li>
 <li class="toc-entry toc-h4"><a href="#inline-1">インライン</a></li>
-<li class="toc-entry toc-h4"><a href="#disabled">Disabled</a></li>
+<li class="toc-entry toc-h4"><a href="#disabled">無効</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h3"><a href="#select-menu">Select menu</a></li>
-<li class="toc-entry toc-h3"><a href="#range">Range</a></li>
+<li class="toc-entry toc-h3"><a href="#select-menu">セレクトメニュー</a></li>
+<li class="toc-entry toc-h3"><a href="#range">範囲</a></li>
 <li class="toc-entry toc-h3">
 <a href="#file-browser">File browser</a><ul>
 <li class="toc-entry toc-h4"><a href="#translating-or-customizing-the-strings">Translating or customizing the strings</a></li>
@@ -524,7 +524,7 @@
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/form&gt;</span></code></pre></figure><h3 id="sizing">サイズ</h3>
 
-<p>Set heights using classes like <code class="highlighter-rouge">.form-control-lg</code> and <code class="highlighter-rouge">.form-control-sm</code>.</p>
+<p><code class="highlighter-rouge">.form-control-lg</code> や <code class="highlighter-rouge">.form-control-sm</code> のようなクラスを使って高さを設定します。</p>
 
 <div class="bd-example">
 <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg"><input class="form-control" type="text" placeholder="Default input"><input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
@@ -773,7 +773,7 @@
     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"formGroupExampleInput2"</span><span class="nt">&gt;</span>Another label<span class="nt">&lt;/label&gt;</span>
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"formGroupExampleInput2"</span> <span class="na">placeholder=</span><span class="s">"Another input"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/form&gt;</span></code></pre></figure><h3 id="form-grid">Form grid</h3>
+<span class="nt">&lt;/form&gt;</span></code></pre></figure><h3 id="form-grid">フォームグリッド</h3>
 
 <p>More complex forms can be built using our grid classes. Use these for form layouts that require multiple columns, varied widths, and additional alignment options.</p>
 
@@ -815,7 +815,7 @@
       <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">placeholder=</span><span class="s">"Last name"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/form&gt;</span></code></pre></figure><p>More complex layouts can also be created with the grid system.</p>
+<span class="nt">&lt;/form&gt;</span></code></pre></figure><p>より複雑なレイアウトもグリッドシステムで作れます。</p>
 
 <div class="bd-example">
 <form>
@@ -1312,7 +1312,7 @@
 <p>Assistive technologies such as screen readers will have trouble with your forms if you don’t include a label for every input. For these inline forms, you can hide the labels using the <code class="highlighter-rouge">.sr-only</code> class. There are further alternative methods of providing a label for assistive technologies, such as the <code class="highlighter-rouge">aria-label</code>, <code class="highlighter-rouge">aria-labelledby</code> or <code class="highlighter-rouge">title</code> attribute. If none of these are present, assistive technologies may resort to using the <code class="highlighter-rouge">placeholder</code> attribute, if present, but note that use of <code class="highlighter-rouge">placeholder</code> as a replacement for other labelling methods is not advised.</p>
 </div>
 
-<h2 id="help-text">Help text</h2>
+<h2 id="help-text">ヘルプテキスト</h2>
 
 <p>Block-level help text in forms can be created using <code class="highlighter-rouge">.form-text</code> (previously known as <code class="highlighter-rouge">.help-block</code> in v3). Inline help text can be flexibly implemented using any inline HTML element and utility classes like <code class="highlighter-rouge">.text-muted</code>.</p>
 
@@ -1354,7 +1354,7 @@
       Must be 8-20 characters long.
     <span class="nt">&lt;/small&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/form&gt;</span></code></pre></figure><h2 id="disabled-forms">Disabled forms</h2>
+<span class="nt">&lt;/form&gt;</span></code></pre></figure><h2 id="disabled-forms">無効なフォーム</h2>
 
 <p>Add the <code class="highlighter-rouge">disabled</code> boolean attribute on an input to prevent user interactions and make it appear lighter.</p>
 
@@ -2012,7 +2012,7 @@
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"custom-control custom-radio custom-control-inline"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">id=</span><span class="s">"customRadioInline2"</span> <span class="na">name=</span><span class="s">"customRadioInline1"</span> <span class="na">class=</span><span class="s">"custom-control-input"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"custom-control-label"</span> <span class="na">for=</span><span class="s">"customRadioInline2"</span><span class="nt">&gt;</span>Or toggle this other custom radio<span class="nt">&lt;/label&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><h4 id="disabled">Disabled</h4>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><h4 id="disabled">無効</h4>
 
 <p>Custom checkboxes and radios can also be disabled. Add the <code class="highlighter-rouge">disabled</code> boolean attribute to the <code class="highlighter-rouge">&lt;input&gt;</code> and the custom indicator and label description will be automatically styled.</p>
 
@@ -2033,7 +2033,7 @@
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"custom-control custom-radio"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">id=</span><span class="s">"radio3"</span> <span class="na">name=</span><span class="s">"radioDisabled"</span> <span class="na">id=</span><span class="s">"customRadioDisabled"</span> <span class="na">class=</span><span class="s">"custom-control-input"</span> <span class="na">disabled</span><span class="nt">&gt;</span>
   <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"custom-control-label"</span> <span class="na">for=</span><span class="s">"customRadioDisabled"</span><span class="nt">&gt;</span>Toggle this custom radio<span class="nt">&lt;/label&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="select-menu">Select menu</h3>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure><h3 id="select-menu">セレクトメニュー</h3>
 
 <p>Custom <code class="highlighter-rouge">&lt;select&gt;</code> menus need only a custom class, <code class="highlighter-rouge">.custom-select</code> to trigger the custom styles. Custom styles are limited to the <code class="highlighter-rouge">&lt;select&gt;</code>’s initial appearance and cannot modify the <code class="highlighter-rouge">&lt;option&gt;</code>s due to browser limitations.</p>
 
@@ -2091,7 +2091,7 @@
   <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"1"</span><span class="nt">&gt;</span>One<span class="nt">&lt;/option&gt;</span>
   <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"2"</span><span class="nt">&gt;</span>Two<span class="nt">&lt;/option&gt;</span>
   <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"3"</span><span class="nt">&gt;</span>Three<span class="nt">&lt;/option&gt;</span>
-<span class="nt">&lt;/select&gt;</span></code></pre></figure><h3 id="range">Range</h3>
+<span class="nt">&lt;/select&gt;</span></code></pre></figure><h3 id="range">範囲</h3>
 
 <p>Create custom <code class="highlighter-rouge">&lt;input type="range"&gt;</code> controls with <code class="highlighter-rouge">.custom-range</code>. The track (the background) and thumb (the value) are both styled to appear the same across browsers. As only IE and Firefox support “filling” their track from the left or right of the thumb as a means to visually indicate progress, we do not currently support it.</p>
 

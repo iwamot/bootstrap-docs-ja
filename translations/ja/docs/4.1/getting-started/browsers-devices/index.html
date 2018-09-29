@@ -353,7 +353,7 @@
 <li class="toc-entry toc-h2"><a href="#printing">印刷</a></li>
 <li class="toc-entry toc-h2">
 <a href="#android-stock-browser">Android 標準ブラウザ</a><ul>
-<li class="toc-entry toc-h4"><a href="#select-menu">Select menu</a></li>
+<li class="toc-entry toc-h4"><a href="#select-menu">セレクトメニュー</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h2"><a href="#validators">バリデータ</a></li>
@@ -512,7 +512,7 @@
 
 <p>Out of the box, Android 4.1 (and even some newer releases apparently) ship with the Browser app as the default web browser of choice (as opposed to Chrome). Unfortunately, the Browser app has lots of bugs and inconsistencies with CSS in general.</p>
 
-<h4 id="select-menu">Select menu</h4>
+<h4 id="select-menu">セレクトメニュー</h4>
 
 <p>On <code class="highlighter-rouge">&lt;select&gt;</code> elements, the Android stock browser will not display the side controls if there is a <code class="highlighter-rouge">border-radius</code> and/or <code class="highlighter-rouge">border</code> applied. (See <a href="https://stackoverflow.com/questions/14744437/html-select-box-not-showing-drop-down-arrow-on-android-version-4-0-when-set-with">this StackOverflow question</a> for details.) Use the snippet of code below to remove the offending CSS and render the <code class="highlighter-rouge">&lt;select&gt;</code> as an unstyled element on the Android stock browser. The user agent sniffing avoids interference with Chrome, Safari, and Mozilla browsers.</p>
 
